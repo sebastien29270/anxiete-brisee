@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<!-- saved from url=(0049)file:///C:/Users/sebas/Downloads/index%20(6).html -->
+<!-- saved from url=(0049)file:///C:/Users/sebas/Downloads/index%20(7).html -->
 <html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>L'Anxiete Brisee</title>
+<title>L'Anxiete Brisee - Sebastien GARCIA</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0;font-family:-apple-system,BlinkMacSystemFont,sans-serif}
 body{background:#ede9e1;display:flex;justify-content:center;min-height:100vh}
@@ -23,7 +23,7 @@ body{background:#ede9e1;display:flex;justify-content:center;min-height:100vh}
 .nb-b.on .nb-lb{color:#1e3a5f}
 .card{background:#fff;border:1px solid #e4ddd3;border-radius:14px;padding:14px;margin-bottom:10px}
 .card-dk{background:#111a26;border-radius:14px;padding:16px;margin-bottom:10px}
-.btn{display:block;width:100%;border:none;border-radius:30px;padding:12px;font-size:12px;font-weight:800;cursor:pointer;text-align:center;text-decoration:none;font-family:inherit;transition:opacity .15s;margin-bottom:0}
+.btn{display:block;width:100%;border:none;border-radius:30px;padding:12px;font-size:12px;font-weight:800;cursor:pointer;text-align:center;text-decoration:none;font-family:inherit;transition:opacity .15s}
 .btn:hover{opacity:.88}
 .b-bl{background:linear-gradient(135deg,#1e3a5f,#2d6099);color:#fff}
 .b-gn{background:linear-gradient(135deg,#1a5230,#2a7a47);color:#fff}
@@ -34,13 +34,13 @@ body{background:#ede9e1;display:flex;justify-content:center;min-height:100vh}
 .ta{width:100%;background:#f0ece5;border:1.5px solid #e4ddd3;border-radius:10px;padding:9px 12px;font-size:12px;outline:none;resize:none;line-height:1.6;font-family:inherit}
 .pb{background:#ede9e1;border-radius:4px;height:5px;overflow:hidden;margin-top:5px}
 .pf{height:100%;border-radius:4px;transition:width .4s}
-.oc{background:#fff;border-radius:16px;padding:14px;margin-bottom:18px;position:relative;border:2px solid #e4ddd3}
+.oc{background:#fff;border-radius:16px;padding:14px;margin-bottom:20px;position:relative;border:2px solid #e4ddd3}
 .oc.ft{border-color:var(--fc)}
 .ob{position:absolute;top:-12px;left:12px;font-size:10px;font-weight:800;padding:3px 10px;border-radius:20px;color:#fff}
 .lc{background:#fffbeb;border:2px solid #f59e0b;border-radius:12px;padding:14px;margin-bottom:12px}
 .lc-t{font-size:9px;font-weight:800;color:#92400e;text-transform:uppercase;letter-spacing:1px;margin-bottom:10px}
 .lc-r{display:flex;gap:9px;align-items:flex-start;margin-bottom:10px;padding-bottom:10px;border-bottom:1px solid #fde68a}
-.lc-r:last-child{margin-bottom:0;padding-bottom:0;border-bottom:none}
+.lc-rl{display:flex;gap:9px;align-items:flex-start}
 .cb{width:18px;height:18px;flex-shrink:0;margin-top:2px;cursor:pointer}
 .lb{font-size:10.5px;color:#2a2218;line-height:1.7;cursor:pointer}
 .hs{display:flex;gap:12px;align-items:flex-start;margin-bottom:14px}
@@ -49,7 +49,17 @@ body{background:#ede9e1;display:flex;justify-content:center;min-height:100vh}
 .lk{text-align:center;padding:40px 20px}
 .tg{display:inline-block;padding:2px 7px;border-radius:20px;font-size:10px;font-weight:700}
 .st{flex:1;background:#f0ece5;border-radius:10px;padding:8px;text-align:center}
-.legal-pre{font-size:11px;color:#2a2218;white-space:pre-wrap;line-height:1.9;font-family:inherit}
+/* LEGAL STYLES */
+.lg-wrap{padding:20px;padding-bottom:40px}
+.lg-h1{font-size:18px;font-weight:800;color:#111;margin-bottom:4px;display:flex;align-items:center;gap:8px}
+.lg-sub{font-size:12px;color:#7a6e5e;margin-bottom:20px}
+.lg-art{margin-bottom:20px;padding-bottom:20px;border-bottom:1px solid #e4ddd3}
+.lg-art-t{font-size:13px;font-weight:800;color:#111;text-transform:uppercase;margin-bottom:8px;letter-spacing:.3px}
+.lg-art-b{font-size:12px;color:#444;line-height:1.8}
+.lg-art-b b{color:#111}
+.lg-art-b ul{padding-left:18px;margin-top:4px}
+.lg-art-b ul li{margin-bottom:3px}
+.lg-sep{height:1px;background:#e4ddd3;margin:20px 0}
 </style>
 </head>
 <body>
@@ -59,10 +69,10 @@ body{background:#ede9e1;display:flex;justify-content:center;min-height:100vh}
       <div class="logo">L’Anxiété Brisée</div>
       <div class="logo-s">avec Sébastien · 43 ans</div>
     </div>
-    <button class="sos-b" id="SOS" onclick="showSOS()" style="display: block;">🚨 SOS</button>
+    <button class="sos-b" id="SOS" onclick="showSOS()" style="display:none">🚨 SOS</button>
   </div>
-  <div class="ct ct-a" id="CT"><div style="margin-bottom:14px"><div style="font-size:18px;font-weight:800;color:#111">Bonjour Sébastien 👋</div><div style="font-size:12px;color:#7a6e5e;margin-top:2px">Comment tu te sens aujourd’hui&nbsp;?</div></div><div class="card" style="background:linear-gradient(135deg,rgba(30,58,95,.06),rgba(30,92,53,.04));border-color:rgba(30,58,95,.15)"><div style="font-size:12px;font-weight:800;color:#111;margin-bottom:8px">Mon niveau d’anxiété</div><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px"><span style="font-size:24px">😐</span><span style="font-size:22px;font-weight:900;color:#a05c18">4/10</span></div><input type="range" min="1" max="10" value="4" oninput="updEA(this.value)" style="width:100%;accent-color:#a05c18"><div style="display:flex;justify-content:space-between;font-size:10px;color:#9a8e7e;margin-top:4px"><span>Calme</span><span>Très anxieux</span></div></div><div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px"><button onclick="go(&#39;respirer&#39;)" style="background:rgba(30,58,95,.07);border:1px solid rgba(30,58,95,.15);border-radius:12px;padding:12px 10px;cursor:pointer;text-align:left"><div style="font-size:18px;margin-bottom:4px">🫙</div><div style="font-size:12px;font-weight:800;color:#111">Respirer</div><div style="font-size:10px;color:#7a6e5e">Guidé</div></button><button onclick="go(&#39;exercices&#39;)" style="background:rgba(30,92,53,.07);border:1px solid rgba(30,92,53,.15);border-radius:12px;padding:12px 10px;cursor:pointer;text-align:left"><div style="font-size:18px;margin-bottom:4px">🪸</div><div style="font-size:12px;font-weight:800;color:#111">Exercices</div><div style="font-size:10px;color:#7a6e5e">Corps &amp; mental</div></button><button onclick="go(&#39;programme&#39;)" style="background:rgba(160,92,24,.07);border:1px solid rgba(160,92,24,.15);border-radius:12px;padding:12px 10px;cursor:pointer;text-align:left"><div style="font-size:18px;margin-bottom:4px">🎓</div><div style="font-size:12px;font-weight:800;color:#111">Programme</div><div style="font-size:10px;color:#7a6e5e">0% fait</div></button><button onclick="showSOS()" style="background:rgba(176,34,24,.07);border:1px solid rgba(176,34,24,.15);border-radius:12px;padding:12px 10px;cursor:pointer;text-align:left"><div style="font-size:18px;margin-bottom:4px">🚨</div><div style="font-size:12px;font-weight:800;color:#111">SOS Crise</div><div style="font-size:10px;color:#b02218">Aide immédiate</div></button></div><div style="display:flex;gap:6px;margin-bottom:12px"><div class="st"><div style="font-size:14px">🔥</div><div style="font-size:15px;font-weight:900;color:#a05c18">7j</div><div style="font-size:9px;color:#9a8e7e;margin-top:1px">consécutifs</div></div><div class="st"><div style="font-size:14px">✅</div><div style="font-size:15px;font-weight:900;color:#1e5c35">12</div><div style="font-size:9px;color:#9a8e7e;margin-top:1px">exercices</div></div><div class="st"><div style="font-size:14px">🫙</div><div style="font-size:15px;font-weight:900;color:#1e3a5f">28</div><div style="font-size:9px;color:#9a8e7e;margin-top:1px">respirations</div></div></div><div style="background:#fff;border:1px solid #e4ddd3;border-left:4px solid #1e3a5f;border-radius:0 14px 14px 0;padding:12px"><div style="font-size:9px;color:#1e3a5f;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:6px">Conseil du jour</div><div style="font-size:12px;color:#111;line-height:1.7;font-style:italic">«&nbsp;Avant d’entrer à la maison, prends 3 respirations abdominales sur le palier. Tu seras un autre parent après.&nbsp;»</div><div style="font-size:11px;color:#1e3a5f;font-weight:800;margin-top:6px">— Sébastien</div></div></div>
-  <nav class="nb" id="NB" style="display: flex;">
+  <div class="ct ct-f" id="CT"><div style="background:#111a26;padding:28px 20px 22px"><div style="font-size:9px;color:#6a9bbf;letter-spacing:2px;text-transform:uppercase;margin-bottom:8px">Mon histoire</div><div style="font-size:19px;font-weight:800;color:#fff;line-height:1.35;margin-bottom:12px;font-style:italic">«&nbsp;J’ai transmis mon anxiété à <span style="color:#7eb8f7">Ewen</span> sans le réaliser. J’ai appris. Avec <span style="color:#fcd34d">Soline</span>, tout a changé.&nbsp;»</div><div style="font-size:10px;color:#8a9fb8">Sébastien — 43 ans · Papa d’Ewen (10&nbsp;ans) et Soline (4&nbsp;ans)</div></div><div style="padding:18px"><div class="hs"><div class="hi" style="background:rgba(176,34,24,.1)">😰</div><div><div style="font-size:11px;font-weight:800;color:#1e3a5f;margin-bottom:3px">Depuis l’adolescence</div><div style="font-size:11px;color:#7a6e5e;line-height:1.7">Grand anxieux depuis toujours. Thérapeutes, psychologues, antidépresseurs. Rien ne durait vraiment.</div></div></div><div class="hs"><div class="hi" style="background:rgba(160,92,24,.1)">👣</div><div><div style="font-size:11px;font-weight:800;color:#a05c18;margin-bottom:3px">Ewen — la prise de conscience</div><div style="font-size:11px;color:#7a6e5e;line-height:1.7">J’ai transmis la peur de tout à mon fils sans m’en rendre compte. En voulant le protéger, je lui apprenais à avoir peur du monde.</div></div></div><div class="hs"><div class="hi" style="background:rgba(30,58,95,.1)">💡</div><div><div style="font-size:11px;font-weight:800;color:#1e3a5f;margin-bottom:3px">J’ai appris de mes erreurs</div><div style="font-size:11px;color:#7a6e5e;line-height:1.7">Yoga, respiration abdominale, marche pour faire le vide. Des outils simples qui m’ont vraiment aidé.</div></div></div><div class="hs"><div class="hi" style="background:rgba(30,92,53,.1)">🌸</div><div><div style="font-size:11px;font-weight:800;color:#1e5c35;margin-bottom:3px">Soline — l’après</div><div style="font-size:11px;color:#7a6e5e;line-height:1.7">Avec ma fille de 4 ans, tout est différent. Elle grandit dans la confiance, pas dans la peur. La chaîne est brisée.</div></div></div><div style="border-top:1px solid #e4ddd3;padding-top:18px;margin-bottom:16px"><div style="font-size:10px;font-weight:800;color:#111;text-transform:uppercase;letter-spacing:1px;margin-bottom:16px">Choisir mon offre</div><div class="oc" style="--fc:#1e5c35"><div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:6px"><div><div style="font-size:15px;font-weight:800;color:#111">Sérénité</div><div style="font-size:11px;color:#1e5c35;font-weight:700;margin-top:1px">Stopper l’anxiété à la source</div></div><div style="text-align:right"><div style="font-size:22px;font-weight:900;color:#1e5c35">9,99€</div><div style="font-size:10px;color:#7a6e5e"> à vie</div></div></div><div style="display:flex;flex-wrap:wrap;gap:4px;margin-bottom:12px"><span class="tg" style="background:#1e5c3518;color:#1e5c35;border:1px solid #1e5c3530">✓ Respirations guidées</span><span class="tg" style="background:#1e5c3518;color:#1e5c35;border:1px solid #1e5c3530">✓ Exercices adulte</span><span class="tg" style="background:#1e5c3518;color:#1e5c35;border:1px solid #1e5c3530">✓ Journal de bord</span><span class="tg" style="background:#1e5c3518;color:#1e5c35;border:1px solid #1e5c3530">✓ SOS urgence</span><span class="tg" style="background:#1e5c3518;color:#1e5c35;border:1px solid #1e5c3530">✓ Accès à vie</span></div><div class="lc"><div class="lc-t">⚠ Acceptation obligatoire — bouton bloqué jusqu’au double cochage</div><div class="lc-r"><input type="checkbox" class="cb" id="c1ndvw8" style="accent-color:#b02218" onchange="verifPay(&#39;c1ndvw8&#39;,&#39;c2qh22o&#39;,&#39;pay14wzb&#39;)"><label class="lb" for="c1ndvw8"><strong style="color:#b02218">Renonciation expresse au droit de rétractation</strong> — Conformément à l’article L.221-28 alinéa 13 du Code de la consommation, je reconnais que l’exécution du contenu numérique commence immédiatement après paiement et <strong>je renonce expressément et définitivement à mon droit de rétractation de 14 jours</strong>. Le paiement de <strong>9,99€ TTC</strong> pour <strong>Sérénité — Stopper l’anxiété à la source</strong> est définitif, irrévocable et non remboursable.</label></div><div class="lc-rl"><input type="checkbox" class="cb" id="c2qh22o" style="accent-color:#1e3a5f" onchange="verifPay(&#39;c1ndvw8&#39;,&#39;c2qh22o&#39;,&#39;pay14wzb&#39;)"><label class="lb" for="c2qh22o">J’ai lu et j’accepte sans réserve les <span onclick="showLegal(&#39;cgv&#39;)" style="color:#1e3a5f;font-weight:700;cursor:pointer;text-decoration:underline">CGV</span>, les <span onclick="showLegal(&#39;mentions&#39;)" style="color:#1e3a5f;font-weight:700;cursor:pointer;text-decoration:underline">Mentions Légales</span> et la <span onclick="showLegal(&#39;rgpd&#39;)" style="color:#1e3a5f;font-weight:700;cursor:pointer;text-decoration:underline">Politique RGPD</span>. Validation = engagement contractuel.</label></div><a id="pay14wzb" href="https://buy.stripe.com/6oU8wQ6E6gRTgywgbOg7e0b" target="_blank" class="btn b-dis" style="background:#1e5c35;color:#fff;margin-top:12px;display:block;text-decoration:none;text-align:center">🔒 Cochez les 2 cases pour payer</a></div></div><div class="oc ft" style="--fc:#a05c18"><div class="ob" style="background:#a05c18">⭐ Populaire</div><div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:6px"><div><div style="font-size:15px;font-weight:800;color:#111">Reprise</div><div style="font-size:11px;color:#a05c18;font-weight:700;margin-top:1px">Contrôle</div></div><div style="text-align:right"><div style="font-size:22px;font-weight:900;color:#a05c18">29,99€</div><div style="font-size:10px;color:#7a6e5e"> à vie</div></div></div><div style="display:flex;flex-wrap:wrap;gap:4px;margin-bottom:12px"><span class="tg" style="background:#a05c1818;color:#a05c18;border:1px solid #a05c1830">✓ Tout Sérénité</span><span class="tg" style="background:#a05c1818;color:#a05c18;border:1px solid #a05c1830">✓ Exercices parent/enfant</span><span class="tg" style="background:#a05c1818;color:#a05c18;border:1px solid #a05c1830">✓ Groupe privé</span><span class="tg" style="background:#a05c1818;color:#a05c18;border:1px solid #a05c1830">✓ Accès à vie</span></div><div class="lc"><div class="lc-t">⚠ Acceptation obligatoire — bouton bloqué jusqu’au double cochage</div><div class="lc-r"><input type="checkbox" class="cb" id="c1bo3b2" style="accent-color:#b02218" onchange="verifPay(&#39;c1bo3b2&#39;,&#39;c2g7gr5&#39;,&#39;payiiozh&#39;)"><label class="lb" for="c1bo3b2"><strong style="color:#b02218">Renonciation expresse au droit de rétractation</strong> — Conformément à l’article L.221-28 alinéa 13 du Code de la consommation, je reconnais que l’exécution du contenu numérique commence immédiatement après paiement et <strong>je renonce expressément et définitivement à mon droit de rétractation de 14 jours</strong>. Le paiement de <strong>29,99€ TTC</strong> pour <strong>Reprise — Contrôle</strong> est définitif, irrévocable et non remboursable.</label></div><div class="lc-rl"><input type="checkbox" class="cb" id="c2g7gr5" style="accent-color:#1e3a5f" onchange="verifPay(&#39;c1bo3b2&#39;,&#39;c2g7gr5&#39;,&#39;payiiozh&#39;)"><label class="lb" for="c2g7gr5">J’ai lu et j’accepte sans réserve les <span onclick="showLegal(&#39;cgv&#39;)" style="color:#1e3a5f;font-weight:700;cursor:pointer;text-decoration:underline">CGV</span>, les <span onclick="showLegal(&#39;mentions&#39;)" style="color:#1e3a5f;font-weight:700;cursor:pointer;text-decoration:underline">Mentions Légales</span> et la <span onclick="showLegal(&#39;rgpd&#39;)" style="color:#1e3a5f;font-weight:700;cursor:pointer;text-decoration:underline">Politique RGPD</span>. Validation = engagement contractuel.</label></div><a id="payiiozh" href="https://buy.stripe.com/00wcN6e6yfNP2HG5xag7e0c" target="_blank" class="btn b-dis" style="background:#a05c18;color:#fff;margin-top:12px;display:block;text-decoration:none;text-align:center">🔒 Cochez les 2 cases pour payer</a></div></div><div class="oc ft" style="--fc:#1e3a5f"><div class="ob" style="background:#1e3a5f">🔥 Meilleur investissement</div><div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:6px"><div><div style="font-size:15px;font-weight:800;color:#111">Programme</div><div style="font-size:11px;color:#1e3a5f;font-weight:700;margin-top:1px">Reprogrammation Parentale</div></div><div style="text-align:right"><div style="font-size:22px;font-weight:900;color:#1e3a5f">199€</div><div style="font-size:10px;color:#7a6e5e"> à vie</div></div></div><div style="display:flex;flex-wrap:wrap;gap:4px;margin-bottom:12px"><span class="tg" style="background:#1e3a5f18;color:#1e3a5f;border:1px solid #1e3a5f30">✓ Tout Reprise</span><span class="tg" style="background:#1e3a5f18;color:#1e3a5f;border:1px solid #1e3a5f30">✓ 8 modules vidéo</span><span class="tg" style="background:#1e3a5f18;color:#1e3a5f;border:1px solid #1e3a5f30">✓ Communauté incluse</span><span class="tg" style="background:#1e3a5f18;color:#1e3a5f;border:1px solid #1e3a5f30">✓ Accès à vie</span></div><div class="lc"><div class="lc-t">⚠ Acceptation obligatoire — bouton bloqué jusqu’au double cochage</div><div class="lc-r"><input type="checkbox" class="cb" id="c1f1247" style="accent-color:#b02218" onchange="verifPay(&#39;c1f1247&#39;,&#39;c2grswa&#39;,&#39;paysmub5&#39;)"><label class="lb" for="c1f1247"><strong style="color:#b02218">Renonciation expresse au droit de rétractation</strong> — Conformément à l’article L.221-28 alinéa 13 du Code de la consommation, je reconnais que l’exécution du contenu numérique commence immédiatement après paiement et <strong>je renonce expressément et définitivement à mon droit de rétractation de 14 jours</strong>. Le paiement de <strong>199€ TTC</strong> pour <strong>Programme — Reprogrammation Parentale</strong> est définitif, irrévocable et non remboursable.</label></div><div class="lc-rl"><input type="checkbox" class="cb" id="c2grswa" style="accent-color:#1e3a5f" onchange="verifPay(&#39;c1f1247&#39;,&#39;c2grswa&#39;,&#39;paysmub5&#39;)"><label class="lb" for="c2grswa">J’ai lu et j’accepte sans réserve les <span onclick="showLegal(&#39;cgv&#39;)" style="color:#1e3a5f;font-weight:700;cursor:pointer;text-decoration:underline">CGV</span>, les <span onclick="showLegal(&#39;mentions&#39;)" style="color:#1e3a5f;font-weight:700;cursor:pointer;text-decoration:underline">Mentions Légales</span> et la <span onclick="showLegal(&#39;rgpd&#39;)" style="color:#1e3a5f;font-weight:700;cursor:pointer;text-decoration:underline">Politique RGPD</span>. Validation = engagement contractuel.</label></div><a id="paysmub5" href="https://buy.stripe.com/bJecN64vYgRT9647Fig7e0d" target="_blank" class="btn b-dis" style="background:#1e3a5f;color:#fff;margin-top:12px;display:block;text-decoration:none;text-align:center">🔒 Cochez les 2 cases pour payer</a></div></div><div style="background:rgba(30,92,53,.08);border:1px solid rgba(30,92,53,.2);border-radius:12px;padding:10px;text-align:center;margin-bottom:14px"><div style="font-size:11px;color:#1e5c35;font-weight:700">🔒 Paiement sécurisé Stripe · RGPD conforme</div></div><button onclick="startApp(&#39;serenite&#39;)" class="btn b-bl">Voir l’application d’abord 💙</button></div></div></div>
+  <nav class="nb" id="NB" style="display:none">
     <button class="nb-b on" id="nb-accueil" onclick="go(&#39;accueil&#39;)"><span class="nb-ic">🏠</span><span class="nb-lb">Accueil</span></button>
     <button class="nb-b" id="nb-respirer" onclick="go(&#39;respirer&#39;)"><span class="nb-ic">🫙</span><span class="nb-lb">Respirer</span></button>
     <button class="nb-b" id="nb-exercices" onclick="go(&#39;exercices&#39;)"><span class="nb-ic">🪸</span><span class="nb-lb">Exercices</span></button>
@@ -79,33 +89,33 @@ var MO=null,ET=null,SJF=false,SE=2,SN=5;
 var OFFRE=localStorage.getItem('offre')||null;
 
 var STR={
-  serenite:'https://buy.stripe.com/dRmdRa5A2457aa86Beg7e07',
-  communaute:'https://buy.stripe.com/fZueVe7Iabxz4POf7Kg7e08',
-  programme:'https://buy.stripe.com/aFa3cwd2u9prdmk6Beg7e09'
+  serenite:  'https://buy.stripe.com/6oU8wQ6E6gRTgywgbOg7e0b',
+  reprise:   'https://buy.stripe.com/00wcN6e6yfNP2HG5xag7e0c',
+  programme: 'https://buy.stripe.com/bJecN64vYgRT9647Fig7e0d'
 };
 
 var OFFRES=[
-  {id:'serenite',c:'#1e5c35',
-   n:'S&#233;r&#233;nit&#233;',p:'9,99&#8364;',per:' &#224; vie',
-   d:'App compl&#232;te &#8212; acc&#232;s &#224; vie',
-   pts:['Respirations guid&#233;es','Exercices adulte','Journal de bord','SOS urgence','Acc&#232;s &#224; vie &#8212; paiement unique'],
+  {id:'serenite', c:'#1e5c35',
+   n:'S&#233;r&#233;nit&#233;', ss:'Stopper l&#8217;anxi&#233;t&#233; &#224; la source',
+   p:'9,99&#8364;', per:' &#224; vie',
+   pts:['Respirations guid&#233;es','Exercices adulte','Journal de bord','SOS urgence','Acc&#232;s &#224; vie'],
    stripe:'serenite'},
-  {id:'communaute',c:'#a05c18',top:'&#11088; Populaire',
-   n:'S&#233;r&#233;nit&#233; + Communaut&#233;',p:'29,99&#8364;',per:' &#224; vie',
-   d:'App + enfants + WhatsApp &#8212; &#224; vie',
-   pts:['Tout S&#233;r&#233;nit&#233;','Exercices avec enfants','Groupe WhatsApp priv&#233;','Acc&#232;s &#224; vie &#8212; paiement unique'],
-   stripe:'communaute'},
-  {id:'programme',c:'#1e3a5f',top:'&#128293; Meilleur investissement',
-   n:'Programme Complet',p:'199&#8364;',per:' &#224; vie',
-   d:'8 modules + app + communaut&#233; &#8212; tout &#224; vie',
-   pts:['Tout S&#233;r&#233;nit&#233; + Communaut&#233;','8 modules Briser la Cha&#238;ne','WhatsApp inclus','Acc&#232;s &#224; vie &#8212; paiement unique'],
+  {id:'reprise', c:'#a05c18', top:'&#11088; Populaire',
+   n:'Reprise', ss:'Contr&#244;le',
+   p:'29,99&#8364;', per:' &#224; vie',
+   pts:['Tout S&#233;r&#233;nit&#233;','Exercices parent/enfant','Groupe priv&#233;','Acc&#232;s &#224; vie'],
+   stripe:'reprise'},
+  {id:'programme', c:'#1e3a5f', top:'&#128293; Meilleur investissement',
+   n:'Programme', ss:'Reprogrammation Parentale',
+   p:'199&#8364;', per:' &#224; vie',
+   pts:['Tout Reprise','8 modules vid&#233;o','Communaut&#233; incluse','Acc&#232;s &#224; vie'],
    stripe:'programme'}
 ];
 
 var DR={
-  serenite:{prog:false,comm:false,enf:false},
-  communaute:{prog:false,comm:true,enf:true},
-  programme:{prog:true,comm:true,enf:true}
+  serenite: {prog:false,comm:false,enf:false},
+  reprise:  {prog:false,comm:true, enf:true},
+  programme:{prog:true, comm:true, enf:true}
 };
 
 function peut(s){
@@ -113,26 +123,38 @@ function peut(s){
   var d=DR[OFFRE];if(!d)return false;
   if(s==='prog')return d.prog;
   if(s==='comm')return d.comm;
-  if(s==='enf')return d.enf;
+  if(s==='enf') return d.enf;
   return true;
 }
 
 var MODS=[
-  {id:1,e:'&#128269;',t:'Comprendre comment &#231;a se transmet',d:'45 min',l:['L&#8217;anxi&#233;t&#233; d&#8217;un parent s&#8217;installe chez l&#8217;enfant','Les 3 m&#233;canismes de transmission','Mon histoire avec Ewen','Identifier mes comportements anxieux']},
-  {id:2,e:'&#129710;',t:'Faire le point sur ton anxi&#233;t&#233;',d:'50 min',l:['D&#8217;o&#249; vient ton anxi&#233;t&#233; ?','As-tu h&#233;rit&#233; de l&#8217;anxi&#233;t&#233; ?','Cartographier tes d&#233;clencheurs','La lettre &#224; ton anxi&#233;t&#233;']},
-  {id:3,e:'&#129753;',t:'La respiration comme outil du quotidien',d:'40 min',l:['Pourquoi la respiration change tout','La respiration abdominale guid&#233;e','La coh&#233;rence cardiaque','Respirer avec son enfant']},
-  {id:4,e:'&#129720;',t:'Le corps et les &#233;motions',d:'55 min',l:['L&#8217;anxi&#233;t&#233; dans le corps','La marche pour faire le vide','5 postures de yoga doux','La relaxation musculaire']},
-  {id:5,e:'&#128172;',t:'Parler &#224; ton enfant de l&#8217;anxi&#233;t&#233;',d:'45 min',l:['Les phrases qui rassurent vs amplifient','Expliquer l&#8217;anxi&#233;t&#233; selon l&#8217;&#226;ge','Mod&#233;liser le calme','Les conversations difficiles']},
-  {id:6,e:'&#128026;',t:'L&#226;cher prise sur la protection',d:'60 min',l:['Sur-protection vs protection saine','Laisser tomber son enfant est un cadeau','Mon erreur avec Ewen','Le journal des l&#226;chers prise']},
-  {id:7,e:'&#127968;',t:'Construire une maison sereine',d:'45 min',l:['Les habitudes qui cr&#233;ent le calme','Les rituels apaisants','G&#233;rer les conflits sans exploser','Ton plan de s&#233;r&#233;nit&#233; familiale']},
-  {id:8,e:'&#128279;',t:'La cha&#238;ne est bris&#233;e',d:'40 min',l:['Bilan des 7 modules','Comment maintenir les acquis','La lettre &#224; tes enfants','Message final de S&#233;bastien']}
+  {id:1,e:'&#128269;',t:'Comprendre comment &#231;a se transmet',d:'45 min',
+   l:['L&#8217;anxi&#233;t&#233; d&#8217;un parent s&#8217;installe chez l&#8217;enfant','Les 3 m&#233;canismes de transmission invisibles','Mon histoire avec Ewen','Identifier mes comportements anxieux']},
+  {id:2,e:'&#129710;',t:'Faire le point sur ton anxi&#233;t&#233;',d:'50 min',
+   l:['D&#8217;o&#249; vient ton anxi&#233;t&#233; ?','As-tu h&#233;rit&#233; de l&#8217;anxi&#233;t&#233; de tes parents ?','Cartographier tes d&#233;clencheurs','La lettre &#224; ton anxi&#233;t&#233;']},
+  {id:3,e:'&#129753;',t:'La respiration comme outil du quotidien',d:'40 min',
+   l:['Pourquoi la respiration change tout','La respiration abdominale guid&#233;e','La coh&#233;rence cardiaque','Respirer avec son enfant']},
+  {id:4,e:'&#129720;',t:'Le corps et les &#233;motions',d:'55 min',
+   l:['L&#8217;anxi&#233;t&#233; dans le corps','La marche pour faire le vide','5 postures de yoga doux','La relaxation musculaire progressive']},
+  {id:5,e:'&#128172;',t:'Parler &#224; ton enfant de l&#8217;anxi&#233;t&#233;',d:'45 min',
+   l:['Les phrases qui rassurent vs amplifient','Expliquer l&#8217;anxi&#233;t&#233; selon l&#8217;&#226;ge','Mod&#233;liser le calme au quotidien','Les conversations difficiles']},
+  {id:6,e:'&#128026;',t:'L&#226;cher prise sur la protection',d:'60 min',
+   l:['Sur-protection vs protection saine','Laisser tomber son enfant est un cadeau','Mon erreur avec Ewen','Le journal des l&#226;chers prise']},
+  {id:7,e:'&#127968;',t:'Construire une maison sereine',d:'45 min',
+   l:['Les habitudes qui cr&#233;ent le calme','Les rituels apaisants','G&#233;rer les conflits sans exploser','Ton plan de s&#233;r&#233;nit&#233; familiale']},
+  {id:8,e:'&#128279;',t:'La cha&#238;ne est bris&#233;e',d:'40 min',
+   l:['Bilan des 7 modules','Comment maintenir les acquis','La lettre &#224; tes enfants','Message final de S&#233;bastien']}
 ];
 
 var RESP=[
-  {n:'Respiration abdominale',c:'#1e3a5f',p:[{l:'Inspire',d:4,i:'Gonfle le ventre'},{l:'Retiens',d:2,i:'Reste immobile'},{l:'Expire',d:6,i:'Vide compl&#232;tement'}],cy:6},
-  {n:'Coh&#233;rence cardiaque',c:'#1e5c35',p:[{l:'Inspire',d:5,i:'R&#233;gulier et doux'},{l:'Expire',d:5,i:'L&#226;che tout'}],cy:15},
-  {n:'Respiration 4-7-8',c:'#5b3a8e',p:[{l:'Inspire',d:4,i:'Par le nez'},{l:'Retiens',d:7,i:'Bouche ferm&#233;e'},{l:'Expire',d:8,i:'Par la bouche'}],cy:4},
-  {n:'Respiration carr&#233;e',c:'#1e5c35',p:[{l:'Inspire',d:4,i:'Doucement'},{l:'Retiens',d:4,i:'Garde l&#8217;air'},{l:'Expire',d:4,i:'Lentement'},{l:'Pause',d:4,i:'Repos'}],cy:5}
+  {n:'Respiration abdominale',c:'#1e3a5f',
+   p:[{l:'Inspire',d:4,i:'Gonfle le ventre'},{l:'Retiens',d:2,i:'Reste immobile'},{l:'Expire',d:6,i:'Vide compl&#232;tement'}],cy:6},
+  {n:'Coh&#233;rence cardiaque',c:'#1e5c35',
+   p:[{l:'Inspire',d:5,i:'R&#233;gulier et doux'},{l:'Expire',d:5,i:'L&#226;che tout'}],cy:15},
+  {n:'Respiration 4-7-8',c:'#5b3a8e',
+   p:[{l:'Inspire',d:4,i:'Par le nez'},{l:'Retiens',d:7,i:'Bouche ferm&#233;e'},{l:'Expire',d:8,i:'Par la bouche'}],cy:4},
+  {n:'Respiration carr&#233;e',c:'#1e5c35',
+   p:[{l:'Inspire',d:4,i:'Doucement'},{l:'Retiens',d:4,i:'Garde l&#8217;air'},{l:'Expire',d:4,i:'Lentement'},{l:'Pause',d:4,i:'Repos'}],cy:5}
 ];
 
 var SP=[
@@ -155,14 +177,8 @@ function startApp(offre){
 }
 
 function go(p){
-  if(p==='programme'&&!peut('prog')){
-    setNav(p);
-    g('CT').innerHTML=verrou('programme');return;
-  }
-  if(p==='communaute'&&!peut('comm')){
-    setNav(p);
-    g('CT').innerHTML=verrou('communaute');return;
-  }
+  if(p==='programme'&&!peut('prog')){setNav(p);g('CT').innerHTML=verrou('programme');return;}
+  if(p==='communaute'&&!peut('comm')){setNav(p);g('CT').innerHTML=verrou('communaute');return;}
   setNav(p);
   var pages={accueil:pgAccueil,respirer:pgResp,exercices:pgExo,programme:pgProg,communaute:pgComm,plus:pgPlus};
   if(pages[p])g('CT').innerHTML=pages[p]();
@@ -175,27 +191,27 @@ function setNav(p){
 }
 
 function verrou(s){
-  var t=s==='programme'?'Programme 8 modules':'Groupe WhatsApp priv&#233;';
+  var t=s==='programme'?'Programme &#8212; Reprogrammation Parentale':'Communaut&#233; priv&#233;e';
   var msg=s==='programme'?
-    'Les 8 modules sont r&#233;serv&#233;s au <strong>Programme Complet (199&#8364; &#224; vie)</strong>.':
-    'Le groupe WhatsApp est r&#233;serv&#233; &#224; <strong>S&#233;r&#233;nit&#233; + Communaut&#233; (29,99&#8364;)</strong> et au <strong>Programme Complet (199&#8364;)</strong>.';
+    'R&#233;serv&#233; au <strong>Programme &#8212; Reprogrammation Parentale (199&#8364;)</strong>.':
+    'R&#233;serv&#233; &#224; <strong>Reprise &#8212; Contr&#244;le (29,99&#8364;)</strong> et au <strong>Programme (199&#8364;)</strong>.';
   var b=s==='programme'?
-    '<a href="'+STR.programme+'" target="_blank" class="btn b-bl">Programme Complet &#8212; 199&#8364; &#224; vie</a>':
-    '<a href="'+STR.communaute+'" target="_blank" class="btn b-am" style="margin-bottom:8px">S&#233;r&#233;nit&#233; + Communaut&#233; &#8212; 29,99&#8364;</a>'+
-    '<a href="'+STR.programme+'" target="_blank" class="btn b-gn">Programme Complet &#8212; 199&#8364;</a>';
+    '<a href="'+STR.programme+'" target="_blank" class="btn b-bl">Programme &#8212; 199&#8364; &#224; vie</a>':
+    '<a href="'+STR.reprise+'" target="_blank" class="btn b-am" style="margin-bottom:8px">Reprise &#8212; Contr&#244;le &#8212; 29,99&#8364;</a>'+
+    '<a href="'+STR.programme+'" target="_blank" class="btn b-gn">Programme &#8212; 199&#8364;</a>';
   return '<div class="lk"><div style="font-size:48px;margin-bottom:16px">&#128274;</div>'+
     '<div style="font-size:18px;font-weight:800;color:#111;margin-bottom:10px">'+t+'</div>'+
     '<div style="font-size:13px;color:#7a6e5e;line-height:1.7;margin-bottom:20px">'+msg+'</div>'+
     b+'<br><button onclick="go(\'accueil\')" class="btn b-ol" style="margin-top:8px">&#8592; Retour</button></div>';
 }
 
-// ===== CASES A COCHER LEGALES =====
+// ===== CASES LEGALES =====
 function legalCheck(offre,stripe,couleur,nomO,prixO){
   var id1='c1'+Math.random().toString(36).substr(2,5);
   var id2='c2'+Math.random().toString(36).substr(2,5);
   var btnId='pay'+Math.random().toString(36).substr(2,5);
   return '<div class="lc">'+
-    '<div class="lc-t">&#9888; Acceptation obligatoire &#8212; le bouton est bloqu&#233; tant que les 2 cases ne sont pas coch&#233;es</div>'+
+    '<div class="lc-t">&#9888; Acceptation obligatoire &#8212; bouton bloqu&#233; jusqu&#8217;au double cochage</div>'+
     '<div class="lc-r">'+
       '<input type="checkbox" class="cb" id="'+id1+'" style="accent-color:#b02218" onchange="verifPay(\''+id1+'\',\''+id2+'\',\''+btnId+'\')">'+
       '<label class="lb" for="'+id1+'">'+
@@ -203,22 +219,21 @@ function legalCheck(offre,stripe,couleur,nomO,prixO){
         'Conform&#233;ment &#224; l&#8217;article L.221-28 alin&#233;a 13 du Code de la consommation, '+
         'je reconnais que l&#8217;ex&#233;cution du contenu num&#233;rique commence imm&#233;diatement apr&#232;s paiement et '+
         '<strong>je renonce express&#233;ment et d&#233;finitivement &#224; mon droit de r&#233;tractation de 14 jours</strong>. '+
-        'Le paiement de <strong>'+prixO+' TTC</strong> pour l&#8217;offre <strong>'+nomO+'</strong> est d&#233;finitif, irr&#233;vocable et non remboursable.'+
+        'Le paiement de <strong>'+prixO+' TTC</strong> pour <strong>'+nomO+'</strong> est d&#233;finitif, irr&#233;vocable et non remboursable.'+
       '</label>'+
     '</div>'+
-    '<div class="lc-r" style="border-bottom:none;margin-bottom:0;padding-bottom:0">'+
+    '<div class="lc-rl">'+
       '<input type="checkbox" class="cb" id="'+id2+'" style="accent-color:#1e3a5f" onchange="verifPay(\''+id1+'\',\''+id2+'\',\''+btnId+'\')">'+
       '<label class="lb" for="'+id2+'">'+
         'J&#8217;ai lu et j&#8217;accepte sans r&#233;serve les '+
         '<span onclick="showLegal(\'cgv\')" style="color:#1e3a5f;font-weight:700;cursor:pointer;text-decoration:underline">CGV</span>, les '+
         '<span onclick="showLegal(\'mentions\')" style="color:#1e3a5f;font-weight:700;cursor:pointer;text-decoration:underline">Mentions L&#233;gales</span> et la '+
-        '<span onclick="showLegal(\'rgpd\')" style="color:#1e3a5f;font-weight:700;cursor:pointer;text-decoration:underline">Politique RGPD</span> '+
-        'de L&#8217;Anxi&#233;t&#233; Bris&#233;e &#8212; S&#233;bastien GARCIA (SIRET 99096385200019). '+
-        'Cette acceptation vaut signature &#233;lectronique (art. 1125 du Code Civil).'+
+        '<span onclick="showLegal(\'rgpd\')" style="color:#1e3a5f;font-weight:700;cursor:pointer;text-decoration:underline">Politique RGPD</span>. '+
+        'Validation = engagement contractuel.'+
       '</label>'+
     '</div>'+
     '<a id="'+btnId+'" href="'+STR[stripe]+'" target="_blank" class="btn b-dis" style="background:'+couleur+';color:#fff;margin-top:12px;display:block;text-decoration:none;text-align:center">'+
-      '&#128274; Cochez les 2 cases pour activer le paiement'+
+      '&#128274; Cochez les 2 cases pour payer'+
     '</a>'+
   '</div>';
 }
@@ -231,38 +246,88 @@ function verifPay(id1,id2,btnId){
     btn.innerHTML='&#10003; Proc&#233;der au paiement';
   } else {
     btn.classList.add('b-dis');
-    btn.innerHTML='&#128274; Cochez les 2 cases pour activer le paiement';
+    btn.innerHTML='&#128274; Cochez les 2 cases pour payer';
   }
 }
 
 // ===== DOCUMENTS JURIDIQUES =====
 function showLegal(doc){
-  var data={
-    mentions:{
-      t:'Mentions L&#233;gales',b:'LCEN 2004',c:'#1e3a5f',
-      tx:'MENTIONS LEGALES\n\n1. EDITEUR\n\nSebastien GARCIA - Micro-entreprise\nSIRET : 99096385200019\n28 rue du Maroc, 29270 Carhaix-Plouguer\nsebastien.garcia29@outlook.fr\nNon assujetti TVA - Art. 293B du CGI\n\n2. HEBERGEMENT\n\nVercel Inc. - 440 N Barranca Ave\nCovina, CA 91723, USA\nhttps://vercel.com\n\n3. PROPRIETE INTELLECTUELLE\n\nTous les contenus sont la propriete exclusive\nde Sebastien GARCIA.\nToute reproduction sans accord ecrit est interdite.\n\n4. AVERTISSEMENT SANTE\n\nLes contenus ont une finalite d\'accompagnement\npersonnel uniquement. Pas d\'avis medical.\nEn cas de troubles severes, consultez un medecin.\n\n5. DROIT APPLICABLE\n\nDroit francais.\nJuridiction : Tribunaux de Quimper (29).\n\nDerniere mise a jour : avril 2026'
-    },
-    cgv:{
-      t:'Conditions G&#233;n&#233;rales de Vente',b:'Code de la Consommation',c:'#a05c18',
-      tx:'CONDITIONS GENERALES DE VENTE\nL\'Anxiete Brisee - Sebastien GARCIA\nSIRET : 99096385200019\n\nART.1 - VENDEUR\nSebastien GARCIA - Micro-entreprise\n28 rue du Maroc, 29270 Carhaix-Plouguer\nsebastien.garcia29@outlook.fr\nNon assujetti TVA - Art. 293B du CGI\n\nART.2 - PRODUITS ET PRIX TTC\nTous les produits sont des ACCES A VIE.\nPaiement unique - aucun abonnement.\n\nSERENITE - 9,99 EUR TTC a vie\nRespirations, exercices adulte, journal, SOS.\n\nSERENITE + COMMUNAUTE - 29,99 EUR TTC a vie\nTout Serenite + exercices enfants + WhatsApp.\n\nPROGRAMME COMPLET - 199 EUR TTC a vie\nTout Serenite + Communaute + 8 modules video.\n\nART.3 - PROCESSUS DE COMMANDE\nDOUBLE COCHAGE OBLIGATOIRE avant paiement:\n\nCASE 1 - Renonciation au droit de retractation\nConformement a l\'art. L.221-28 al.13 du Code\nde la consommation, le client renonce\nexpressement a son droit de retractation.\n\nCASE 2 - Acceptation des CGV\nAcceptation sans reserve des CGV,\nMentions Legales et Politique RGPD.\n\nTout paiement est definitif et non remboursable.\n\nART.4 - PAIEMENT\nPaiements securises via Stripe Inc.\nPaiement unique - aucun prelevement automatique.\n\nART.5 - ACCES\nAcces immediat apres paiement. Disponible A VIE.\n\nART.6 - DROIT DE RETRACTATION\nConformement a l\'art. L.221-28 al.13 du Code\nde la consommation, le droit de retractation\nNE S\'APPLIQUE PAS aux contenus numeriques\ndont l\'execution a commence avec l\'accord\nexpres du consommateur.\n\nAUCUN REMBOURSEMENT apres paiement.\n\nART.7 - PROPRIETE INTELLECTUELLE\nAcces PERSONNEL et NON TRANSFERABLE.\n\nART.8 - MEDIATION\nsebastien.garcia29@outlook.fr\nhttps://ec.europa.eu/consumers/odr/\nTribunaux de Quimper (29).\n\nDerniere mise a jour : avril 2026'
-    },
-    rgpd:{
-      t:'Politique RGPD & CNIL',b:'RGPD (UE) 2016/679',c:'#1e5c35',
-      tx:'POLITIQUE DE CONFIDENTIALITE ET RGPD\n\nART.1 - RESPONSABLE\nSebastien GARCIA - SIRET 99096385200019\n28 rue du Maroc, 29270 Carhaix-Plouguer\nsebastien.garcia29@outlook.fr\n\nART.2 - DONNEES COLLECTEES\n- Identification : prenom, email, mot de passe\n- Facturation : via Stripe (vendeur sans acces)\n- Utilisation : journal, niveaux d\'anxiete\n- Techniques : IP, navigateur, cookies\n\nART.3 - DONNEES DE SANTE (art. 9 RGPD)\nLe journal et niveaux d\'anxiete sont des\ndonnees de sante. Elles sont :\n[OK] Collectees avec consentement\n[OK] Stockees chiffrees\n[OK] Accessibles UNIQUEMENT par vous\n[OK] Jamais partagees ni vendues\n[OK] Supprimables a tout moment\n\nART.4 - VOS DROITS\nExercez vos droits a :\nsebastien.garcia29@outlook.fr\n\n[OK] Acces (art.15)  [OK] Rectification (art.16)\n[OK] Effacement (art.17)  [OK] Portabilite (art.20)\n[OK] Opposition (art.21)\n\nReclamation CNIL : https://www.cnil.fr\n\nART.5 - SOUS-TRAITANTS\nStripe Inc. - stripe.com/fr/privacy\nVercel Inc. - vercel.com/legal/privacy-policy\n\nART.6 - COOKIES\nNecessaires : session, securite\nFonctionnels : preferences, progression\nAucun cookie publicitaire. Duree max : 13 mois.\n\nDerniere mise a jour : avril 2026'
-    }
-  };
-  var d=data[doc];if(!d)return;
   var c=g('CT');
-  c.innerHTML=
-    '<div style="padding:16px;padding-bottom:30px">'+
-    '<button onclick="pgHistoire()" style="background:none;border:none;color:#1e3a5f;cursor:pointer;font-size:13px;font-weight:800;margin-bottom:16px">&#8592; Retour aux offres</button>'+
-    '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;flex-wrap:wrap;gap:8px">'+
-      '<div style="font-size:15px;font-weight:800;color:#111">'+d.t+'</div>'+
-      '<span style="background:'+d.c+'18;color:'+d.c+';border:1px solid '+d.c+'44;padding:3px 10px;border-radius:20px;font-size:9px;font-weight:800">'+d.b+'</span>'+
-    '</div>'+
-    '<div class="card"><pre class="legal-pre">'+d.tx+'</pre></div>'+
-    '<button onclick="pgHistoire()" class="btn b-ol" style="margin-top:14px">&#8592; Retour aux offres</button>'+
+  if(doc==='cgv'){
+    c.innerHTML='<div class="lg-wrap">'+
+      '<button onclick="pgHistoire()" style="background:none;border:none;color:#1e3a5f;cursor:pointer;font-size:13px;font-weight:800;margin-bottom:20px">&#8592; Retour</button>'+
+      '<div class="lg-h1">&#128203; 1 &#8212; CONDITIONS G&#201;N&#201;RALES DE VENTE (CGV)</div>'+
+      '<div class="lg-sub">L&#8217;Anxi&#233;t&#233; Bris&#233;e &#8212; S&#233;bastien GARCIA &#183; SIRET&#160;: 99096385200019</div>'+
+      '<div class="lg-sep"></div>'+
+      '<div class="lg-art"><div class="lg-art-t">Article 1 &#8212; Identit&#233;</div>'+
+      '<div class="lg-art-b">S&#233;bastien GARCIA &#8212; Micro-entreprise<br>28 rue du Maroc, 29270 Carhaix-Plouguer<br>Email&#160;: sebastien.garcia29@outlook.fr<br><br>Non assujetti TVA &#8212; art. 293B CGI</div></div>'+
+      '<div class="lg-art"><div class="lg-art-t">Article 2 &#8212; Produits et prix</div>'+
+      '<div class="lg-art-b">Contenus num&#233;riques accessibles en ligne.<br>Acc&#232;s &#224; vie &#8212; paiement unique.<br><br><b>Offres&#160;:</b><br><br>'+
+      '<b>S&#233;r&#233;nit&#233; &#8212; Stopper l&#8217;anxi&#233;t&#233; &#224; la source &#8212; 9,99&#8364; TTC</b><br>Respiration, exercices, journal, SOS.<br><br>'+
+      '<b>Reprise &#8212; Contr&#244;le &#8212; 29,99&#8364; TTC</b><br>Tout S&#233;r&#233;nit&#233; + exercices parent/enfant + groupe priv&#233;.<br><br>'+
+      '<b>Programme &#8212; Reprogrammation Parentale &#8212; 199&#8364; TTC</b><br>Tout Reprise + programme 8 modules + communaut&#233;.</div></div>'+
+      '<div class="lg-art"><div class="lg-art-t">Article 3 &#8212; Commande</div>'+
+      '<div class="lg-art-b">Le client s&#233;lectionne son offre et valide&#160;:<ul><li>acceptation CGV</li><li>renonciation au droit de r&#233;tractation</li></ul>Validation = engagement contractuel.</div></div>'+
+      '<div class="lg-art"><div class="lg-art-t">Article 4 &#8212; Paiement</div>'+
+      '<div class="lg-art-b">Paiement s&#233;curis&#233; via Stripe<br>Paiement unique &#8212; aucun abonnement.</div></div>'+
+      '<div class="lg-art"><div class="lg-art-t">Article 5 &#8212; Acc&#232;s</div>'+
+      '<div class="lg-art-b">Acc&#232;s imm&#233;diat apr&#232;s paiement.<br>Acc&#232;s personnel, &#224; vie.</div></div>'+
+      '<div class="lg-art"><div class="lg-art-t">Article 6 &#8212; R&#233;tractation</div>'+
+      '<div class="lg-art-b">Conform&#233;ment &#224; l&#8217;article L221-28&#160;:<br>Pas de droit de r&#233;tractation sur contenu num&#233;rique ex&#233;cut&#233; imm&#233;diatement.<br><br>&#128070; Aucun remboursement.</div></div>'+
+      '<div class="lg-art"><div class="lg-art-t">Article 7 &#8212; Responsabilit&#233;</div>'+
+      '<div class="lg-art-b">Les contenus ne remplacent pas un suivi m&#233;dical ou psychologique.<br>L&#8217;utilisateur reste responsable de son utilisation.</div></div>'+
+      '<div class="lg-art"><div class="lg-art-t">Article 8 &#8212; Propri&#233;t&#233;</div>'+
+      '<div class="lg-art-b">Acc&#232;s personnel, non transf&#233;rable.<br>Reproduction interdite.</div></div>'+
+      '<div class="lg-art"><div class="lg-art-t">Article 9 &#8212; M&#233;diation</div>'+
+      '<div class="lg-art-b">Email&#160;: sebastien.garcia29@outlook.fr<br>Plateforme&#160;: https://ec.europa.eu/consumers/odr/<br>Tribunal&#160;: Quimper</div></div>'+
+      '<div style="font-size:12px;font-weight:800;color:#111;margin-top:10px">Mise &#224; jour&#160;: Avril 2026</div>'+
+      '<button onclick="pgHistoire()" class="btn b-ol" style="margin-top:20px">&#8592; Retour aux offres</button>'+
     '</div>';
+  } else if(doc==='mentions'){
+    c.innerHTML='<div class="lg-wrap">'+
+      '<button onclick="pgHistoire()" style="background:none;border:none;color:#1e3a5f;cursor:pointer;font-size:13px;font-weight:800;margin-bottom:20px">&#8592; Retour</button>'+
+      '<div class="lg-h1">&#9878; 2 &#8212; MENTIONS L&#201;GALES</div>'+
+      '<div class="lg-sep"></div>'+
+      '<div class="lg-art"><div class="lg-art-t">&#201;diteur</div>'+
+      '<div class="lg-art-b">S&#233;bastien GARCIA &#8212; Micro-entreprise<br>SIRET&#160;: 99096385200019<br>28 rue du Maroc, 29270 Carhaix-Plouguer<br>Email&#160;: sebastien.garcia29@outlook.fr</div></div>'+
+      '<div class="lg-sep"></div>'+
+      '<div class="lg-art"><div class="lg-art-t">H&#233;bergement</div>'+
+      '<div class="lg-art-b">Vercel Inc. &#8212; 440 N Barranca Ave, Covina, CA 91723, USA<br>https://vercel.com</div></div>'+
+      '<div class="lg-sep"></div>'+
+      '<div class="lg-art"><div class="lg-art-t">Propri&#233;t&#233; intellectuelle</div>'+
+      '<div class="lg-art-b">Tous les contenus sont prot&#233;g&#233;s.<br>Toute reproduction interdite.</div></div>'+
+      '<div class="lg-sep"></div>'+
+      '<div class="lg-art"><div class="lg-art-t">Avertissement sant&#233;</div>'+
+      '<div class="lg-art-b">Les contenus ont une finalit&#233; d&#8217;accompagnement personnel uniquement.<br>Ils ne constituent pas un avis m&#233;dical.<br>En cas de troubles s&#233;v&#232;res, consultez un m&#233;decin qualifi&#233;.</div></div>'+
+      '<div style="font-size:12px;font-weight:800;color:#111;margin-top:10px">Mise &#224; jour&#160;: Avril 2026</div>'+
+      '<button onclick="pgHistoire()" class="btn b-ol" style="margin-top:20px">&#8592; Retour aux offres</button>'+
+    '</div>';
+  } else if(doc==='rgpd'){
+    c.innerHTML='<div class="lg-wrap">'+
+      '<button onclick="pgHistoire()" style="background:none;border:none;color:#1e3a5f;cursor:pointer;font-size:13px;font-weight:800;margin-bottom:20px">&#8592; Retour</button>'+
+      '<div class="lg-h1">&#128274; 3 &#8212; POLITIQUE DE CONFIDENTIALIT&#201; (RGPD)</div>'+
+      '<div class="lg-sep"></div>'+
+      '<div class="lg-art"><div class="lg-art-t">Donn&#233;es collect&#233;es</div>'+
+      '<div class="lg-art-b"><ul><li>email</li><li>pr&#233;nom (si demand&#233;)</li><li>donn&#233;es de navigation</li></ul></div></div>'+
+      '<div class="lg-sep"></div>'+
+      '<div class="lg-art"><div class="lg-art-t">Finalit&#233;</div>'+
+      '<div class="lg-art-b"><ul><li>acc&#232;s au service</li><li>communication client</li><li>am&#233;lioration du service</li></ul></div></div>'+
+      '<div class="lg-sep"></div>'+
+      '<div class="lg-art"><div class="lg-art-t">Paiement</div>'+
+      '<div class="lg-art-b">Paiements trait&#233;s via Stripe<br>Aucune donn&#233;e bancaire stock&#233;e.</div></div>'+
+      '<div class="lg-sep"></div>'+
+      '<div class="lg-art"><div class="lg-art-t">Conservation</div>'+
+      '<div class="lg-art-b">Donn&#233;es conserv&#233;es le temps n&#233;cessaire &#224; la relation client.</div></div>'+
+      '<div class="lg-sep"></div>'+
+      '<div class="lg-art"><div class="lg-art-t">Droits utilisateur</div>'+
+      '<div class="lg-art-b">Acc&#232;s, modification, suppression sur demande&#160;:<br>&#128070; sebastien.garcia29@outlook.fr</div></div>'+
+      '<div class="lg-sep"></div>'+
+      '<div class="lg-art"><div class="lg-art-t">S&#233;curit&#233;</div>'+
+      '<div class="lg-art-b">Mesures mises en place pour prot&#233;ger les donn&#233;es.</div></div>'+
+      '<div style="font-size:12px;font-weight:800;color:#111;margin-top:10px">Mise &#224; jour&#160;: Avril 2026</div>'+
+      '<button onclick="pgHistoire()" class="btn b-ol" style="margin-top:20px">&#8592; Retour aux offres</button>'+
+    '</div>';
+  }
 }
 
 // ===== HISTOIRE =====
@@ -289,10 +354,10 @@ function pgHistoire(){
         OFFRES.map(function(o){
           return '<div class="oc'+(o.top?' ft':'')+'" style="--fc:'+o.c+'">'+
             (o.top?'<div class="ob" style="background:'+o.c+'">'+o.top+'</div>':'')+
-            '<div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px">'+
+            '<div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:6px">'+
               '<div>'+
-                '<div style="font-size:14px;font-weight:800;color:#111">'+o.n+'</div>'+
-                '<div style="font-size:10px;color:#7a6e5e;margin-top:2px">'+o.d+'</div>'+
+                '<div style="font-size:15px;font-weight:800;color:#111">'+o.n+'</div>'+
+                '<div style="font-size:11px;color:'+o.c+';font-weight:700;margin-top:1px">'+o.ss+'</div>'+
               '</div>'+
               '<div style="text-align:right">'+
                 '<div style="font-size:22px;font-weight:900;color:'+o.c+'">'+o.p+'</div>'+
@@ -302,7 +367,7 @@ function pgHistoire(){
             '<div style="display:flex;flex-wrap:wrap;gap:4px;margin-bottom:12px">'+
               o.pts.map(function(pt){return '<span class="tg" style="background:'+o.c+'18;color:'+o.c+';border:1px solid '+o.c+'30">&#10003; '+pt+'</span>';}).join('')+
             '</div>'+
-            legalCheck(o.id,o.stripe,o.c,o.n,o.p)+
+            legalCheck(o.id,o.stripe,o.c,o.n+' &#8212; '+o.ss,o.p)+
           '</div>';
         }).join('')+
         '<div style="background:rgba(30,92,53,.08);border:1px solid rgba(30,92,53,.2);border-radius:12px;padding:10px;text-align:center;margin-bottom:14px">'+
@@ -316,64 +381,50 @@ function pgHistoire(){
 function hStep(bg,em,ti,tc,tx){
   return '<div class="hs">'+
     '<div class="hi" style="background:'+bg+'">'+em+'</div>'+
-    '<div>'+
-      '<div style="font-size:11px;font-weight:800;color:'+tc+';margin-bottom:3px">'+ti+'</div>'+
-      '<div style="font-size:11px;color:#7a6e5e;line-height:1.7">'+tx+'</div>'+
-    '</div>'+
-  '</div>';
+    '<div><div style="font-size:11px;font-weight:800;color:'+tc+';margin-bottom:3px">'+ti+'</div>'+
+    '<div style="font-size:11px;color:#7a6e5e;line-height:1.7">'+tx+'</div></div></div>';
 }
 
 // ===== ACCUEIL =====
 function pgAccueil(){
-  var tot=Object.values(PM).reduce(function(s,v){return s+v;},0);
-  var pct=Math.round(tot/800*100);
+  var pct=Math.round(Object.values(PM).reduce(function(s,v){return s+v;},0)/800*100);
   var em=EA<=3?'&#128524;':EA<=5?'&#128528;':EA<=7?'&#128543;':'&#128560;';
   var col=EA<=3?'#1e5c35':EA<=6?'#a05c18':'#b02218';
   return '<div style="margin-bottom:14px">'+
     '<div style="font-size:18px;font-weight:800;color:#111">Bonjour S&#233;bastien &#128075;</div>'+
-    '<div style="font-size:12px;color:#7a6e5e;margin-top:2px">Comment tu te sens aujourd&#8217;hui&#160;?</div>'+
-  '</div>'+
+    '<div style="font-size:12px;color:#7a6e5e;margin-top:2px">Comment tu te sens aujourd&#8217;hui&#160;?</div></div>'+
   '<div class="card" style="background:linear-gradient(135deg,rgba(30,58,95,.06),rgba(30,92,53,.04));border-color:rgba(30,58,95,.15)">'+
     '<div style="font-size:12px;font-weight:800;color:#111;margin-bottom:8px">Mon niveau d&#8217;anxi&#233;t&#233;</div>'+
     '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">'+
-      '<span style="font-size:24px">'+em+'</span>'+
-      '<span style="font-size:22px;font-weight:900;color:'+col+'">'+EA+'/10</span>'+
-    '</div>'+
+      '<span style="font-size:24px">'+em+'</span><span style="font-size:22px;font-weight:900;color:'+col+'">'+EA+'/10</span></div>'+
     '<input type="range" min="1" max="10" value="'+EA+'" oninput="updEA(this.value)" style="width:100%;accent-color:'+col+'">'+
     '<div style="display:flex;justify-content:space-between;font-size:10px;color:#9a8e7e;margin-top:4px"><span>Calme</span><span>Tr&#232;s anxieux</span></div>'+
     (EA>=7?'<div style="margin-top:10px;background:rgba(176,34,24,.07);border:1px solid rgba(176,34,24,.2);border-radius:10px;padding:8px 10px">'+
       '<div style="font-size:11px;color:#b02218;font-weight:800;margin-bottom:4px">Tu sembles tr&#232;s anxieux</div>'+
-      '<button onclick="showSOS()" style="background:#b02218;color:#fff;border:none;border-radius:20px;padding:5px 12px;font-size:11px;font-weight:800;cursor:pointer">Exercice d&#8217;urgence</button>'+
-    '</div>':'')+
+      '<button onclick="showSOS()" style="background:#b02218;color:#fff;border:none;border-radius:20px;padding:5px 12px;font-size:11px;font-weight:800;cursor:pointer">Exercice d&#8217;urgence</button></div>':'')+
   '</div>'+
   '<div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px">'+
     qb('respirer','&#129753;','Respirer','Guid&#233;','rgba(30,58,95,.07)','rgba(30,58,95,.15)')+
-    qb('exercices','&#129720;','Exercices','Corps &amp; mental','rgba(30,92,53,.07)','rgba(30,92,53,.15)')+
+    qb('exercices','&#129720;','Exercices','Corps &#38; mental','rgba(30,92,53,.07)','rgba(30,92,53,.15)')+
     qb('programme','&#127891;','Programme',pct+'% fait','rgba(160,92,24,.07)','rgba(160,92,24,.15)')+
     '<button onclick="showSOS()" style="background:rgba(176,34,24,.07);border:1px solid rgba(176,34,24,.15);border-radius:12px;padding:12px 10px;cursor:pointer;text-align:left">'+
       '<div style="font-size:18px;margin-bottom:4px">&#128680;</div>'+
       '<div style="font-size:12px;font-weight:800;color:#111">SOS Crise</div>'+
-      '<div style="font-size:10px;color:#b02218">Aide imm&#233;diate</div>'+
-    '</button>'+
-  '</div>'+
+      '<div style="font-size:10px;color:#b02218">Aide imm&#233;diate</div></button></div>'+
   '<div style="display:flex;gap:6px;margin-bottom:12px">'+
-    st('&#128293;','7j','cons&#233;cutifs','#a05c18')+
-    st('&#9989;','12','exercices','#1e5c35')+
-    st('&#129753;','28','respirations','#1e3a5f')+
+    st('&#128293;','7j','cons&#233;cutifs','#a05c18')+st('&#9989;','12','exercices','#1e5c35')+st('&#129753;','28','respirations','#1e3a5f')+
   '</div>'+
   '<div style="background:#fff;border:1px solid #e4ddd3;border-left:4px solid #1e3a5f;border-radius:0 14px 14px 0;padding:12px">'+
     '<div style="font-size:9px;color:#1e3a5f;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:6px">Conseil du jour</div>'+
     '<div style="font-size:12px;color:#111;line-height:1.7;font-style:italic">&#171;&#160;Avant d&#8217;entrer &#224; la maison, prends 3 respirations abdominales sur le palier. Tu seras un autre parent apr&#232;s.&#160;&#187;</div>'+
-    '<div style="font-size:11px;color:#1e3a5f;font-weight:800;margin-top:6px">&#8212; S&#233;bastien</div>'+
-  '</div>';
+    '<div style="font-size:11px;color:#1e3a5f;font-weight:800;margin-top:6px">&#8212; S&#233;bastien</div></div>';
 }
 
 function qb(p,ic,ti,su,bg,br){
   return '<button onclick="go(\''+p+'\')" style="background:'+bg+';border:1px solid '+br+';border-radius:12px;padding:12px 10px;cursor:pointer;text-align:left">'+
     '<div style="font-size:18px;margin-bottom:4px">'+ic+'</div>'+
     '<div style="font-size:12px;font-weight:800;color:#111">'+ti+'</div>'+
-    '<div style="font-size:10px;color:#7a6e5e">'+su+'</div>'+
-  '</button>';
+    '<div style="font-size:10px;color:#7a6e5e">'+su+'</div></button>';
 }
 
 function st(ic,v,l,c){
@@ -395,8 +446,7 @@ function pgResp(){
           r.p.map(function(ph){return '<span class="tg" style="background:'+r.c+'18;color:'+r.c+';border:1px solid '+r.c+'44">'+ph.l+' '+ph.d+'s</span>';}).join('')+
         '</div>'+
         '<div style="font-size:11px;color:#7a6e5e;margin-bottom:8px">'+r.cy+' cycles</div>'+
-        '<button onclick="startResp('+i+')" style="width:100%;background:'+r.c+';color:#fff;border:none;border-radius:30px;padding:9px;font-size:11px;font-weight:800;cursor:pointer">&#9654; Commencer</button>'+
-      '</div>';
+        '<button onclick="startResp('+i+')" style="width:100%;background:'+r.c+';color:#fff;border:none;border-radius:30px;padding:9px;font-size:11px;font-weight:800;cursor:pointer">&#9654; Commencer</button></div>';
     }).join('');
 }
 
@@ -408,14 +458,12 @@ function startResp(idx){
       '<div style="font-size:15px;font-weight:800;color:#111;margin-bottom:4px" id="RN">'+CR.n+'</div>'+
       '<div style="font-size:11px;color:#7a6e5e;margin-bottom:24px" id="RC">Cycle 1 / '+CR.cy+'</div>'+
       '<div id="RCi" style="width:110px;height:110px;border-radius:50%;margin:0 auto 24px;display:flex;align-items:center;justify-content:center;border:4px solid '+CR.c+';background:'+CR.c+'18">'+
-        '<span id="RCt" style="font-size:38px;font-weight:900;color:'+CR.c+'">'+RN+'</span>'+
-      '</div>'+
+        '<span id="RCt" style="font-size:38px;font-weight:900;color:'+CR.c+'">'+RN+'</span></div>'+
       '<div id="RPl" style="font-size:20px;font-weight:800;color:#111;margin-bottom:6px">'+CR.p[0].l+'</div>'+
       '<div id="RPi" style="font-size:13px;color:#7a6e5e;margin-bottom:20px">'+CR.p[0].i+'</div>'+
       '<div id="RDo" style="display:flex;justify-content:center;gap:6px">'+
         CR.p.map(function(_,i){return '<div style="width:8px;height:8px;border-radius:50%;background:'+(i===0?CR.c:'#e4ddd3')+'"></div>';}).join('')+
-      '</div>'+
-    '</div>');
+      '</div></div>');
   if(RT)clearInterval(RT);
   RT=setInterval(function(){
     RN--;
@@ -437,47 +485,35 @@ function pgExo(){
   return '<div style="font-size:18px;font-weight:800;color:#111;margin-bottom:12px">&#129720; Exercices</div>'+
     '<div style="display:flex;background:#f0ece5;border-radius:10px;padding:3px;margin-bottom:14px">'+
       '<button onclick="setTab(\'adulte\')" style="flex:1;padding:7px;background:'+(tab==='adulte'?'#fff':'transparent')+';border:'+(tab==='adulte'?'1px solid #e4ddd3':'none')+';border-radius:8px;font-size:11px;font-weight:800;cursor:pointer;color:'+(tab==='adulte'?'#1e3a5f':'#7a6e5e')+'">Pour moi</button>'+
-      '<button onclick="'+(aE?'setTab(\'enfant\')':'blocEnfants()')+'" style="flex:1;padding:7px;background:'+(tab==='enfant'&&aE?'#fff':'transparent')+';border:'+(tab==='enfant'&&aE?'1px solid #e4ddd3':'none')+';border-radius:8px;font-size:11px;font-weight:800;cursor:pointer;color:'+(tab==='enfant'&&aE?'#1e3a5f':'#7a6e5e')+'">'+(aE?'Avec mes enfants':'&#128274; Avec mes enfants')+'</button>'+
-    '</div>'+
-    (tab==='adulte'?
-      [
-        {i:'&#129720;',n:'Yoga doux anti-stress',d:'10 min',t:'Corps',c:'#1e5c35',desc:'5 postures simples pour rel&#226;cher les tensions.'},
-        {i:'&#128694;',n:'Marche pour faire le vide',d:'20 min',t:'Dehors',c:'#1e5c35',desc:'La technique de S&#233;bastien. Observer sans penser.'},
-        {i:'&#128524;',n:'Relaxation musculaire',d:'15 min',t:'Corps',c:'#1e3a5f',desc:'Contracte et rel&#226;che chaque groupe musculaire.'},
-        {i:'&#9875;',n:'5-4-3-2-1 Ancrage',d:'5 min',t:'Urgence',c:'#b02218',desc:'5 choses vues, 4 entendues, 3 touch&#233;es.'}
-      ].map(function(ex){
-        return '<div class="card">'+
-          '<div style="display:flex;gap:10px;align-items:flex-start">'+
-            '<span style="font-size:26px">'+ex.i+'</span>'+
-            '<div style="flex:1">'+
-              '<div style="font-size:13px;font-weight:800;color:#111">'+ex.n+'</div>'+
-              '<div style="font-size:10px;color:#7a6e5e;margin-bottom:4px">'+ex.d+' &#183; '+ex.t+'</div>'+
-              '<div style="font-size:11px;color:#7a6e5e;line-height:1.5">'+ex.desc+'</div>'+
-            '</div>'+
-          '</div>'+
-          '<button style="width:100%;margin-top:10px;background:'+ex.c+';color:#fff;border:none;border-radius:30px;padding:8px;font-size:11px;font-weight:800;cursor:pointer">&#9654; Commencer</button>'+
-        '</div>';
-      }).join(''):
-      '<div style="background:rgba(160,92,24,.07);border:1px solid rgba(160,92,24,.2);border-radius:10px;padding:10px 12px;margin-bottom:12px;font-size:11px;color:#7a6e5e;line-height:1.6">&#128161; Ces exercices sont &#224; faire avec ton enfant.</div>'+
-      [
-        {i:'&#127880;',n:'Le ballon de baudruche',a:'3-8 ans',desc:'Gonfle le ventre comme un ballon, laisse l&#8217;air sortir.'},
-        {i:'&#129583;',n:'La bougie magique',a:'4-10 ans',desc:'Expire doucement sans &#233;teindre la bougie imaginaire.'},
-        {i:'&#129303;',n:'Le c&#226;lin respiratoire',a:'Tous &#226;ges',desc:'On respire ensemble dans les bras, au m&#234;me rythme.'},
-        {i:'&#128056;',n:'La tortue dans sa carapace',a:'3-7 ans',desc:'Rentre dans ta carapace, respire, ressors calmement.'}
-      ].map(function(ex){
-        return '<div class="card" style="border-left:4px solid #a05c18;border-radius:0 14px 14px 0">'+
-          '<div style="display:flex;gap:10px;align-items:flex-start">'+
-            '<span style="font-size:26px">'+ex.i+'</span>'+
-            '<div style="flex:1">'+
-              '<div style="font-size:13px;font-weight:800;color:#111">'+ex.n+'</div>'+
-              '<div style="font-size:10px;color:#a05c18;font-weight:800;margin-bottom:4px">'+ex.a+'</div>'+
-              '<div style="font-size:11px;color:#7a6e5e;line-height:1.5">'+ex.desc+'</div>'+
-            '</div>'+
-          '</div>'+
-          '<button style="width:100%;margin-top:10px;background:#a05c18;color:#fff;border:none;border-radius:30px;padding:8px;font-size:11px;font-weight:800;cursor:pointer">&#9654; Faire avec mon enfant</button>'+
-        '</div>';
-      }).join('')
-    );
+      '<button onclick="'+(aE?'setTab(\'enfant\')':'blocEnfants()')+'" style="flex:1;padding:7px;background:'+(tab==='enfant'&&aE?'#fff':'transparent')+';border:'+(tab==='enfant'&&aE?'1px solid #e4ddd3':'none')+';border-radius:8px;font-size:11px;font-weight:800;cursor:pointer;color:'+(tab==='enfant'&&aE?'#1e3a5f':'#7a6e5e')+'">'+(aE?'Avec mes enfants':'&#128274; Avec mes enfants')+'</button></div>'+
+    (tab==='adulte'?[
+      {i:'&#129720;',n:'Yoga doux anti-stress',d:'10 min',t:'Corps',c:'#1e5c35',desc:'5 postures simples pour rel&#226;cher les tensions.'},
+      {i:'&#128694;',n:'Marche pour faire le vide',d:'20 min',t:'Dehors',c:'#1e5c35',desc:'La technique de S&#233;bastien. Observer sans penser.'},
+      {i:'&#128524;',n:'Relaxation musculaire',d:'15 min',t:'Corps',c:'#1e3a5f',desc:'Contracte et rel&#226;che chaque groupe musculaire.'},
+      {i:'&#9875;',n:'5-4-3-2-1 Ancrage',d:'5 min',t:'Urgence',c:'#b02218',desc:'5 choses vues, 4 entendues, 3 touch&#233;es. Revenir au pr&#233;sent.'}
+    ].map(function(ex){
+      return '<div class="card"><div style="display:flex;gap:10px;align-items:flex-start">'+
+        '<span style="font-size:26px">'+ex.i+'</span>'+
+        '<div style="flex:1"><div style="font-size:13px;font-weight:800;color:#111">'+ex.n+'</div>'+
+        '<div style="font-size:10px;color:#7a6e5e;margin-bottom:4px">'+ex.d+' &#183; '+ex.t+'</div>'+
+        '<div style="font-size:11px;color:#7a6e5e;line-height:1.5">'+ex.desc+'</div></div></div>'+
+        '<button style="width:100%;margin-top:10px;background:'+ex.c+';color:#fff;border:none;border-radius:30px;padding:8px;font-size:11px;font-weight:800;cursor:pointer">&#9654; Commencer</button></div>';
+    }).join(''):
+    '<div style="background:rgba(160,92,24,.07);border:1px solid rgba(160,92,24,.2);border-radius:10px;padding:10px 12px;margin-bottom:12px;font-size:11px;color:#7a6e5e;line-height:1.6">&#128161; Ces exercices sont &#224; faire avec ton enfant.</div>'+
+    [
+      {i:'&#127880;',n:'Le ballon de baudruche',a:'3-8 ans',desc:'Gonfle le ventre comme un ballon, laisse l&#8217;air sortir.'},
+      {i:'&#129583;',n:'La bougie magique',a:'4-10 ans',desc:'Expire doucement sans &#233;teindre la bougie imaginaire.'},
+      {i:'&#129303;',n:'Le c&#226;lin respiratoire',a:'Tous &#226;ges',desc:'On respire ensemble dans les bras, au m&#234;me rythme.'},
+      {i:'&#128056;',n:'La tortue dans sa carapace',a:'3-7 ans',desc:'Rentre dans ta carapace, respire, ressors calmement.'}
+    ].map(function(ex){
+      return '<div class="card" style="border-left:4px solid #a05c18;border-radius:0 14px 14px 0">'+
+        '<div style="display:flex;gap:10px;align-items:flex-start">'+
+        '<span style="font-size:26px">'+ex.i+'</span>'+
+        '<div style="flex:1"><div style="font-size:13px;font-weight:800;color:#111">'+ex.n+'</div>'+
+        '<div style="font-size:10px;color:#a05c18;font-weight:800;margin-bottom:4px">'+ex.a+'</div>'+
+        '<div style="font-size:11px;color:#7a6e5e;line-height:1.5">'+ex.desc+'</div></div></div>'+
+        '<button style="width:100%;margin-top:10px;background:#a05c18;color:#fff;border:none;border-radius:30px;padding:8px;font-size:11px;font-weight:800;cursor:pointer">&#9654; Faire avec mon enfant</button></div>';
+    }).join(''));
 }
 
 function setTab(t){ET=t;go('exercices');}
@@ -485,9 +521,9 @@ function blocEnfants(){
   g('CT').innerHTML='<div class="lk">'+
     '<div style="font-size:48px;margin-bottom:16px">&#128274;</div>'+
     '<div style="font-size:18px;font-weight:800;color:#111;margin-bottom:10px">Exercices avec enfants</div>'+
-    '<div style="font-size:13px;color:#7a6e5e;line-height:1.7;margin-bottom:20px">R&#233;serv&#233; &#224; <strong>S&#233;r&#233;nit&#233; + Communaut&#233; (29,99&#8364;)</strong> et <strong>Programme Complet (199&#8364;)</strong>.</div>'+
-    '<a href="'+STR.communaute+'" target="_blank" class="btn b-am" style="margin-bottom:8px">S&#233;r&#233;nit&#233; + Communaut&#233; &#8212; 29,99&#8364;</a>'+
-    '<a href="'+STR.programme+'" target="_blank" class="btn b-gn" style="margin-bottom:10px">Programme Complet &#8212; 199&#8364;</a>'+
+    '<div style="font-size:13px;color:#7a6e5e;line-height:1.7;margin-bottom:20px">R&#233;serv&#233; &#224; <strong>Reprise &#8212; Contr&#244;le (29,99&#8364;)</strong> et <strong>Programme (199&#8364;)</strong>.</div>'+
+    '<a href="'+STR.reprise+'" target="_blank" class="btn b-am" style="margin-bottom:8px">Reprise &#8212; Contr&#244;le &#8212; 29,99&#8364;</a>'+
+    '<a href="'+STR.programme+'" target="_blank" class="btn b-gn" style="margin-bottom:10px">Programme &#8212; 199&#8364;</a>'+
     '<button onclick="go(\'exercices\')" class="btn b-ol">&#8592; Retour</button></div>';
 }
 
@@ -501,32 +537,27 @@ function pgProg(){
         '<div style="font-size:36px;margin-bottom:8px">'+m.e+'</div>'+
         '<div style="font-size:15px;font-weight:800;color:#111;margin-bottom:4px;line-height:1.3">'+m.t+'</div>'+
         '<div style="font-size:11px;color:#7a6e5e;margin-bottom:8px">'+m.d+' &#183; '+m.l.length+' le&#231;ons &#183; '+pr+'%</div>'+
-        '<div class="pb"><div class="pf" style="width:'+pr+'%;background:'+(pr===100?'#1e5c35':'#1e3a5f')+'"></div></div>'+
-      '</div>'+
+        '<div class="pb"><div class="pf" style="width:'+pr+'%;background:'+(pr===100?'#1e5c35':'#1e3a5f')+'"></div></div></div>'+
       m.l.map(function(l,i){var k=m.id+'-'+i;var f=LD[k];
         return '<div onclick="togL(\''+k+'\','+m.id+')" style="display:flex;gap:10px;align-items:flex-start;padding:10px 0;border-bottom:1px solid #e4ddd3;cursor:pointer">'+
           '<div style="width:22px;height:22px;border-radius:50%;background:'+(f?'#1e5c35':'transparent')+';border:2px solid '+(f?'#1e5c35':'#e4ddd3')+';display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px">'+
             (f?'<span style="color:#fff;font-size:11px">&#10003;</span>':'')+
           '</div>'+
-          '<div style="font-size:12px;color:'+(f?'#7a6e5e':'#111')+';text-decoration:'+(f?'line-through':'none')+';line-height:1.5">'+l+'</div>'+
-        '</div>';
+          '<div style="font-size:12px;color:'+(f?'#7a6e5e':'#111')+';text-decoration:'+(f?'line-through':'none')+';line-height:1.5">'+l+'</div></div>';
       }).join('')+
       '<div style="margin-top:14px;background:#111a26;border-radius:12px;padding:14px">'+
-        '<div style="font-size:12px;color:#c8d4e0;font-style:italic;line-height:1.7">&#171;&#160;Briser la cha&#238;ne ce n&#8217;est pas &#234;tre un parent parfait. C&#8217;est &#234;tre un parent conscient.&#160;&#187; &#8212; S&#233;bastien</div>'+
-      '</div>'+
+        '<div style="font-size:12px;color:#c8d4e0;font-style:italic;line-height:1.7">&#171;&#160;Briser la cha&#238;ne ce n&#8217;est pas &#234;tre un parent parfait. C&#8217;est &#234;tre un parent conscient.&#160;&#187; &#8212; S&#233;bastien</div></div>'+
       (MO<7?'<button onclick="nextMod()" class="btn b-bl" style="margin-top:12px">Module suivant &#8594;</button>':'');
   }
   return '<div class="card-dk" style="margin-bottom:14px">'+
     '<div style="font-size:9px;color:#7eb8f7;letter-spacing:2px;text-transform:uppercase;margin-bottom:4px">Programme</div>'+
-    '<div style="font-size:18px;font-weight:900;color:#fff;margin-bottom:8px">Briser la Cha&#238;ne &#128279;</div>'+
+    '<div style="font-size:18px;font-weight:900;color:#fff;margin-bottom:2px">Reprogrammation Parentale</div>'+
+    '<div style="font-size:11px;color:#7eb8f7;margin-bottom:8px">Briser la Cha&#238;ne &#128279;</div>'+
     '<div style="display:flex;justify-content:space-between;margin-bottom:6px">'+
       '<span style="font-size:12px;color:#c8d4e0">Progression</span>'+
-      '<span style="font-size:13px;font-weight:900;color:#7eb8f7">'+pct+'%</span>'+
-    '</div>'+
+      '<span style="font-size:13px;font-weight:900;color:#7eb8f7">'+pct+'%</span></div>'+
     '<div style="background:rgba(255,255,255,.12);border-radius:4px;height:5px;overflow:hidden">'+
-      '<div style="height:100%;width:'+pct+'%;background:linear-gradient(90deg,#3b82f6,#7eb8f7);border-radius:4px"></div>'+
-    '</div>'+
-  '</div>'+
+      '<div style="height:100%;width:'+pct+'%;background:linear-gradient(90deg,#3b82f6,#7eb8f7);border-radius:4px"></div></div></div>'+
   MODS.map(function(m,i){var p=PM[m.id]||0;var te=p===100;var en=p>0&&p<100;
     return '<div onclick="openMod('+i+')" style="display:flex;gap:10px;align-items:flex-start;background:#fff;border:1px solid '+(te?'rgba(30,92,53,.35)':en?'rgba(30,58,95,.25)':'#e4ddd3')+';border-left:4px solid '+(te?'#1e5c35':en?'#1e3a5f':'#e4ddd3')+';border-radius:0 14px 14px 0;padding:12px;margin-bottom:8px;cursor:pointer">'+
       '<div style="width:36px;height:36px;border-radius:10px;background:'+(te?'rgba(30,92,53,.1)':'#f0ece5')+';display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0">'+(te?'&#9989;':m.e)+'</div>'+
@@ -535,11 +566,8 @@ function pgProg(){
         '<div style="font-size:12px;font-weight:800;color:#111;margin-bottom:4px;line-height:1.3">'+m.t+'</div>'+
         '<div style="display:flex;justify-content:space-between;margin-bottom:4px">'+
           '<span style="font-size:10px;color:#7a6e5e">'+m.d+' &#183; '+m.l.length+' le&#231;ons</span>'+
-          '<span style="font-size:11px;font-weight:800;color:'+(te?'#1e5c35':en?'#1e3a5f':'#7a6e5e')+'">'+p+'%</span>'+
-        '</div>'+
-        '<div class="pb"><div class="pf" style="width:'+p+'%;background:'+(te?'#1e5c35':'#1e3a5f')+'"></div></div>'+
-      '</div>'+
-    '</div>';
+          '<span style="font-size:11px;font-weight:800;color:'+(te?'#1e5c35':en?'#1e3a5f':'#7a6e5e')+'">'+p+'%</span></div>'+
+        '<div class="pb"><div class="pf" style="width:'+p+'%;background:'+(te?'#1e5c35':'#1e3a5f')+'"></div></div></div></div>';
   }).join('');
 }
 
@@ -559,152 +587,15 @@ function pgComm(){
   if(!peut('comm')){
     return '<div class="lk">'+
       '<div style="font-size:48px;margin-bottom:16px">&#128274;</div>'+
-      '<div style="font-size:18px;font-weight:800;color:#111;margin-bottom:10px">Groupe WhatsApp priv&#233;</div>'+
-      '<div style="font-size:13px;color:#7a6e5e;line-height:1.7;margin-bottom:20px">R&#233;serv&#233; &#224; <strong>S&#233;r&#233;nit&#233; + Communaut&#233; (29,99&#8364;)</strong> et <strong>Programme Complet (199&#8364;)</strong>.</div>'+
-      '<a href="'+STR.communaute+'" target="_blank" class="btn b-am" style="margin-bottom:8px">S&#233;r&#233;nit&#233; + Communaut&#233; &#8212; 29,99&#8364;</a>'+
-      '<a href="'+STR.programme+'" target="_blank" class="btn b-gn" style="margin-bottom:10px">Programme Complet &#8212; 199&#8364;</a>'+
+      '<div style="font-size:18px;font-weight:800;color:#111;margin-bottom:10px">Communaut&#233; priv&#233;e</div>'+
+      '<div style="font-size:13px;color:#7a6e5e;line-height:1.7;margin-bottom:20px">R&#233;serv&#233;e &#224; <strong>Reprise &#8212; Contr&#244;le (29,99&#8364;)</strong> et <strong>Programme (199&#8364;)</strong>.</div>'+
+      '<a href="'+STR.reprise+'" target="_blank" class="btn b-am" style="margin-bottom:8px">Reprise &#8212; Contr&#244;le &#8212; 29,99&#8364;</a>'+
+      '<a href="'+STR.programme+'" target="_blank" class="btn b-gn" style="margin-bottom:10px">Programme &#8212; 199&#8364;</a>'+
       '<button onclick="go(\'accueil\')" class="btn b-ol">&#8592; Retour</button></div>';
   }
   return '<div style="font-size:18px;font-weight:800;color:#111;margin-bottom:14px">&#128101; Communaut&#233;</div>'+
     '<div class="card">'+
       '<div style="font-size:12px;font-weight:800;color:#111;margin-bottom:8px">Groupe WhatsApp priv&#233;</div>'+
-      '<div style="background:rgba(30,58,95,.07);border:1px solid rgba(30,58,95,.2);border-radius:10px;padding:8px 10px;margin-bottom:10px;font-size:11px;color:#1e3a5f">&#10003; Tu as acc&#232;s &#8212; S&#233;bastien t&#8217;enverra le lien par email</div>'+
-      '<div style="display:flex;gap:8px;margin-bottom:8px">'+
-        '<div style="width:28px;height:28px;border-radius:50%;background:rgba(30,58,95,.1);display:flex;align-items:center;justify-content:center;font-size:14px;flex-shrink:0">&#128105;</div>'+
-        '<div><div style="font-size:11px;font-weight:800;color:#111">Claire M. <span style="font-size:10px;color:#7a6e5e;font-weight:400">Il y a 2h</span></div>'+
-        '<div style="font-size:11px;color:#7a6e5e;line-height:1.5;margin-top:2px">La respiration abdominale avant l&#8217;&#233;cole change tout &#128153;</div></div>'+
-      '</div>'+
-      '<input class="inp" placeholder="Partage ton exp&#233;rience..." style="margin-bottom:6px">'+
-      '<button class="btn b-bl" style="font-size:11px;padding:8px">Publier &#128153;</button>'+
-    '</div>';
-}
-
-// ===== JOURNAL =====
-function pgJournal(){
-  var h='<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">'+
-    '<div><div style="font-size:18px;font-weight:800;color:#111">&#128212; Journal de bord</div>'+
-    '<div style="font-size:10px;color:#1e5c35;margin-top:2px">&#10003; Sauvegarde automatique</div></div>'+
-    '<button onclick="togJF()" style="background:linear-gradient(135deg,#1e3a5f,#2d6099);color:#fff;border:none;border-radius:20px;padding:6px 14px;font-size:11px;font-weight:800;cursor:pointer">+ Entr&#233;e</button></div>';
-  if(J.length>0){
-    var moy=(J.reduce(function(s,e){return s+e.n;},0)/J.length).toFixed(1);
-    h+='<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;margin-bottom:12px">'+
-      '<div class="st"><div style="font-size:15px;font-weight:900;color:#1e3a5f">'+J.length+'</div><div style="font-size:9px;color:#9a8e7e">entr&#233;es</div></div>'+
-      '<div class="st"><div style="font-size:15px;font-weight:900;color:#a05c18">'+moy+'</div><div style="font-size:9px;color:#9a8e7e">niveau moy.</div></div>'+
-      '<div class="st"><div style="font-size:15px;font-weight:900;color:#1e5c35">'+J.filter(function(e){return e.m;}).length+'</div><div style="font-size:9px;color:#9a8e7e">avec solution</div></div></div>';
-  }
-  if(SJF){
-    h+='<div class="card" style="border-color:rgba(30,58,95,.2)">'+
-      '<div style="font-size:12px;font-weight:800;color:#111;margin-bottom:10px">Nouvelle entr&#233;e</div>'+
-      '<div style="font-size:10px;color:#7a6e5e;margin-bottom:6px">Comment tu te sens&#160;?</div>'+
-      '<div style="display:flex;gap:5px;flex-wrap:wrap;margin-bottom:10px">'+
-        ['&#128524;','&#128522;','&#128528;','&#128543;','&#128560;','&#128546;'].map(function(e,i){
-          return '<button onclick="setSE('+i+')" style="font-size:20px;background:'+(SE===i?'rgba(30,58,95,.1)':'transparent')+';border:2px solid '+(SE===i?'#1e3a5f':'transparent')+';border-radius:8px;padding:4px;cursor:pointer">'+e+'</button>';
-        }).join('')+
-      '</div>'+
-      '<div style="font-size:10px;color:#7a6e5e;margin-bottom:4px">Niveau d&#8217;anxi&#233;t&#233;&#160;: <strong style="color:#1e3a5f">'+SN+'/10</strong></div>'+
-      '<input type="range" min="1" max="10" value="'+SN+'" oninput="setSN(this.value)" style="width:100%;margin-bottom:10px;accent-color:#1e3a5f">'+
-      '<textarea class="ta" id="JN" placeholder="D&#233;cris ta journ&#233;e..." rows="3"></textarea>'+
-      '<input class="inp" id="JM" placeholder="Ce qui m&#8217;a aid&#233;...">'+
-      '<div style="display:flex;gap:8px;margin-top:4px">'+
-        '<button onclick="saveJ()" class="btn b-bl" style="flex:1;font-size:11px;padding:9px">&#128190; Sauvegarder</button>'+
-        '<button onclick="togJF()" class="btn b-ol" style="flex:1;font-size:11px;padding:9px">Annuler</button>'+
-      '</div></div>';
-  }
-  if(J.length===0&&!SJF){
-    h+='<div style="text-align:center;padding:30px 20px;color:#7a6e5e">'+
-      '<div style="font-size:38px;margin-bottom:10px">&#128212;</div>'+
-      '<div style="font-size:13px">Ton journal est vide.<br>Commence par noter comment tu te sens.</div></div>';
-  }
-  h+=J.map(function(e){
-    var col=e.n<=3?'#1e5c35':e.n<=6?'#a05c18':'#b02218';
-    var bg=e.n<=3?'rgba(30,92,53,.08)':e.n<=6?'rgba(160,92,24,.08)':'rgba(176,34,24,.08)';
-    return '<div class="card">'+
-      '<div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px">'+
-        '<div style="display:flex;gap:8px;align-items:center">'+
-          '<span style="font-size:24px">'+e.e+'</span>'+
-          '<div><div style="font-size:12px;font-weight:800;color:#111">'+e.date+'</div>'+
-          '<div style="font-size:10px;color:#7a6e5e">Anxi&#233;t&#233; '+e.n+'/10</div></div>'+
-        '</div>'+
-        '<div style="width:30px;height:30px;border-radius:50%;background:'+bg+';display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:900;color:'+col+'">'+e.n+'</div>'+
-      '</div>'+
-      '<div style="font-size:12px;color:#111;line-height:1.6;margin-bottom:'+(e.m?'8px':'0')+'">'+e.t+'</div>'+
-      (e.m?'<div style="background:rgba(30,92,53,.08);border:1px solid rgba(30,92,53,.2);border-radius:8px;padding:6px 10px;font-size:11px;color:#1e5c35">&#10003; Ce qui a aid&#233;&#160;: '+e.m+'</div>':'')+
-    '</div>';
-  }).join('');
-  return h;
-}
-
-function togJF(){SJF=!SJF;go('journal');}
-function setSE(i){SE=i;go('journal');}
-function setSN(v){SN=parseInt(v);go('journal');}
-function saveJ(){
-  var note=g('JN');var mieux=g('JM');
-  if(!note||!note.value.trim())return;
-  var em=['&#128524;','&#128522;','&#128528;','&#128543;','&#128560;','&#128546;'];
-  var d=new Date();
-  J.unshift({e:em[SE||2],n:SN||5,t:note.value,m:mieux?mieux.value:'',
-    date:d.getDate()+' '+['Jan','F&#233;v','Mar','Avr','Mai','Jun','Jul','Ao&#251;','Sep','Oct','Nov','D&#233;c'][d.getMonth()]});
-  SJF=false;SE=2;SN=5;go('journal');
-}
-
-// ===== PLUS =====
-function pgPlus(){
-  return '<div style="font-size:18px;font-weight:800;color:#111;margin-bottom:14px">Plus</div>'+
-    '<div style="font-size:9px;color:#9a8e7e;font-weight:800;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">Nos offres</div>'+
-    '<div class="card" style="margin-bottom:14px">'+
-      OFFRES.map(function(o){
-        return '<div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid #e4ddd3">'+
-          '<span style="font-size:12px;font-weight:800;color:#111">'+o.n+'</span>'+
-          '<span style="font-size:12px;font-weight:800;color:'+o.c+'">'+o.p+'</span>'+
-        '</div>';
-      }).join('')+
-    '</div>'+
-    '<div style="font-size:9px;color:#9a8e7e;font-weight:800;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">Documents l&#233;gaux</div>'+
-    '<div class="card">'+
-      '<div onclick="showLegal(\'mentions\')" style="padding:11px 0;border-bottom:1px solid #e4ddd3;font-size:12px;color:#1e3a5f;cursor:pointer;display:flex;justify-content:space-between">&#9878; Mentions L&#233;gales<span style="color:#9a8e7e">&#8250;</span></div>'+
-      '<div onclick="showLegal(\'cgv\')" style="padding:11px 0;border-bottom:1px solid #e4ddd3;font-size:12px;color:#1e3a5f;cursor:pointer;display:flex;justify-content:space-between">&#128203; Conditions G&#233;n&#233;rales de Vente<span style="color:#9a8e7e">&#8250;</span></div>'+
-      '<div onclick="showLegal(\'rgpd\')" style="padding:11px 0;font-size:12px;color:#1e3a5f;cursor:pointer;display:flex;justify-content:space-between">&#128274; Politique RGPD &amp; CNIL<span style="color:#9a8e7e">&#8250;</span></div>'+
-    '</div>'+
-    '<div style="margin-top:12px;text-align:center;font-size:11px;color:#9a8e7e;line-height:1.7">'+
-      'sebastien.garcia29@outlook.fr<br>SIRET&#160;: 99096385200019<br>28 rue du Maroc &#8212; 29270 Carhaix-Plouguer'+
-    '</div>';
-}
-
-// ===== SOS =====
-function showSOS(){
-  SS=0;var sc=SP[0].d;
-  document.body.insertAdjacentHTML('beforeend',
-    '<div id="SO" style="position:fixed;inset:0;background:rgba(17,26,38,.93);z-index:100;display:flex;align-items:center;justify-content:center">'+
-      '<div style="background:#fff;border-radius:20px;padding:24px;width:290px;text-align:center">'+
-        '<div style="font-size:10px;color:#b02218;font-weight:800;letter-spacing:1px;margin-bottom:12px">EXERCICE D&#8217;URGENCE</div>'+
-        '<div id="SC" style="width:85px;height:85px;border-radius:50%;margin:0 auto 14px;display:flex;align-items:center;justify-content:center;border:3px solid #1e3a5f;background:rgba(30,58,95,.1)">'+
-          '<span id="SN" style="font-size:30px;font-weight:900;color:#1e3a5f">'+sc+'</span>'+
-        '</div>'+
-        '<div id="SL" style="font-size:15px;font-weight:800;color:#111;margin-bottom:4px">'+SP[0].l+'</div>'+
-        '<div id="SI" style="font-size:12px;color:#7a6e5e;margin-bottom:14px">'+SP[0].i+'</div>'+
-        '<div id="SD" style="display:flex;justify-content:center;gap:5px;margin-bottom:14px">'+
-          SP.map(function(_,i){return '<div style="width:7px;height:7px;border-radius:50%;background:'+(i===0?'#1e3a5f':'#e4ddd3')+'"></div>';}).join('')+
-        '</div>'+
-        '<button onclick="hideSOS()" style="background:none;border:1px solid #e4ddd3;border-radius:20px;padding:5px 14px;font-size:11px;color:#7a6e5e;cursor:pointer">Arr&#234;ter</button>'+
-      '</div>'+
-    '</div>');
-  if(ST)clearInterval(ST);
-  ST=setInterval(function(){
-    sc--;
-    if(sc<=0){SS++;if(SS>=SP.length){hideSOS();return;}sc=SP[SS].d;}
-    var ph=SP[SS];var el;
-    el=g('SN');if(el){el.textContent=sc;el.style.color=ph.c;}
-    el=g('SL');if(el)el.innerHTML=ph.l;
-    el=g('SI');if(el)el.innerHTML=ph.i;
-    el=g('SC');if(el){el.style.borderColor=ph.c;el.style.background=ph.c+'18';}
-    el=g('SD');if(el)el.innerHTML=SP.map(function(_,i){return '<div style="width:7px;height:7px;border-radius:50%;background:'+(i===SS?ph.c:'#e4ddd3')+'"></div>';}).join('');
-  },1000);
-}
-function hideSOS(){if(ST)clearInterval(ST);var o=g('SO');if(o)o.remove();}
-
-// ===== INIT =====
-pgHistoire();
-</script>
-
-
-</body></html>
+      '<div style="background:rgba(30,58,95,.07);border:1px solid rgba(30,58,95,.2);border-radius:10px;padding:8px 10px;margin-bottom:12px;font-size:11px;color:#1e3a5f">&#10003; Tu as acc&#232;s &#8212; S&#233;bastien t&#8217;enverra le lien par email</div>'+
+      '<div style="display:flex;gap:8px;margin-bottom:10px">'+
+        '<div style="width:28px;height:28px;border-rad
