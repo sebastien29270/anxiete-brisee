@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0049)file:///C:/Users/sebas/Downloads/promo%20(1).html -->
+<!-- saved from url=(0050)file:///C:/Users/sebas/Downloads/index%20(17).html -->
 <html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -71,7 +71,7 @@ body{background:#ede9e1;display:flex;justify-content:center;min-height:100vh}
   <div class="hd">
     <div>
       <div class="logo">L’Anxiété Brisée</div>
-      <div class="logo-s">avec Sébastien · 43 ans</div></div><div style="background:#1e5c35;color:#fff;font-size:10px;font-weight:800;text-align:center;padding:5px;letter-spacing:.5px">🎉 ACCÈS OFFERT — Pack Reprise Contrôle
+      <div class="logo-s">avec Sébastien · 43 ans</div>
     </div>
     <button class="sos-b" id="SOS" onclick="showSOS()" style="display: block;">🚨 SOS</button>
   </div>
@@ -89,8 +89,7 @@ body{background:#ede9e1;display:flex;justify-content:center;min-height:100vh}
 var J=[],PM={1:0,2:0,3:0,4:0,5:0,6:0,7:0,8:0},LD={},EA=4;
 var RT=null,ST=null,CR=null,RP=0,RC=0,RN=0,SS=0;
 var MO=null,ML=null,ET=null,SJF=false,SE=2,SN=5;
-var OFFRE='reprise'; localStorage.setItem('offre','reprise');
-var PROMO_CODES={'REPRISE5':'reprise','SERENITE5':'serenite','PROGRAMME5':'programme'};
+var OFFRE=localStorage.getItem('offre')||null;
 var CREATOR_UNLOCKED=false;
 var CREATOR_TAPS=0;
 var CREATOR_PIN='1622';
@@ -397,20 +396,6 @@ function creatorPanel(){
   return h;
 }
 
-function activatePromo(){
-  var code=prompt('Entre ton code d&#8217;acc&#232;s :');
-  if(!code)return;
-  var offre=PROMO_CODES[code.toUpperCase().trim()];
-  if(offre){
-    OFFRE=offre;
-    localStorage.setItem('offre',offre);
-    alert('Code valid&#233; ! Tu as acc&#232;s &#224; l&#8217;offre '+offre+'. Bienvenue !');
-    startApp(offre);
-  } else {
-    alert('Code invalide. V&#233;rifie ton code et r&#233;essaie.');
-  }
-}
-
 function setOffre(offre){
   OFFRE=offre;
   localStorage.setItem('offre',offre);
@@ -449,7 +434,6 @@ function pgHistoire(){
       }).join('')+
       '<div style="background:rgba(30,92,53,.08);border:1px solid rgba(30,92,53,.2);border-radius:12px;padding:10px;text-align:center;margin-bottom:14px">'+
         '<div style="font-size:11px;color:#1e5c35;font-weight:700">&#128274; Paiement s&#233;curis&#233; Stripe &#183; RGPD conforme</div></div>'+
-      '<button onclick="activatePromo()" style="width:100%;border:none;background:transparent;font-size:12px;color:#1e3a5f;text-decoration:underline;cursor:pointer;padding:10px;margin-bottom:6px">J&#8217;ai un code d&#8217;acc&#232;s</button>'+
       '<button onclick="startApp(\'serenite\')" class="btn b-bl">Voir l&#8217;application d&#8217;abord &#128153;</button>'+
     '</div></div>';
 }
@@ -946,7 +930,7 @@ function showSOS(){
 }
 function hideSOS(){if(ST)clearInterval(ST);var o=g('SO');if(o)o.remove();}
 
-startApp('reprise');
+pgHistoire();
 </script>
 
 
